@@ -3,13 +3,13 @@
 #rm -rf /home/user/kaldi/egs/nptel/s5/data/test_nptel/*
 #rm -rf $base_dir/SplitWavFile/nptel/*
 echo $1, $2, $3, $4, $5
-base_dir=/home/ubuntu
+base_dir=/mnt/md0
 kaldi_nptel=$base_dir/kaldi/egs/nptel/s5_r2
-split_wav_dir=$base_dir/SplitWavFile/$4 
+split_wav_dir=$base_dir/SpeechRecognitionServer/SplitWavFile/$4 
 mfcc_dir=$kaldi_nptel/data/$4
 mkdir $split_wav_dir
 mkdir $mfcc_dir
-python3 $base_dir/SplitWavFile/example.py $split_wav_dir $1 
+python3 $base_dir/SpeechRecognitionServer/SplitWavFile/example.py $split_wav_dir $1 
 python3 $base_dir/SpeechRecognitionServer/create_wav_filelist.py $split_wav_dir $mfcc_dir
 jobid=$5
 SQL_QUERY="update jobrequest set jobstatus=10 where jobid='$jobid'"
@@ -22,7 +22,8 @@ if [ $2 -eq 1 ]; then
 $kaldi_nptel/steps/get_ctm.sh --frame-shift 0.03 ${mfcc_dir}_hires $kaldi_nptel/data2/lang $kaldi_nptel/exp/chain_cleaned/tdnnf_1b/decode_$4_rnnlm_lstm_tdnn_b_averaged
 json_file="$base_dir/SpeechRecognitionServer/JSON/$4-1.json"
 python3 $base_dir/SpeechRecognitionServer/process_word_timestamp.py $4 $json_file $kaldi_nptel/exp/chain_cleaned/tdnnf_1b/decode_$4_rnnlm_lstm_tdnn_b_averaged/score_13/$4_hires.ctm
-
+rm -r $kaldi_nptel/exp/chain_cleaned/tdnnf_1b/decode_$4
+rm -r exp/nnet3_cleaned/ivectors_$4
 fi
 
 if [ $2 -eq 2 ]; then
@@ -73,5 +74,6 @@ SQL_QUERY="update jobrequest set jobstatus=100, transcriptfile='$json_file', mod
 mysql -u root -pmysql -D jobdb -e "$SQL_QUERY";
 
 rm -rf $split_wav_dir
-#rm -rf $mfcc_dir
+rm -rf $mfcc_dir
+rm -rf ${mfcc_dir}_${hires}
 

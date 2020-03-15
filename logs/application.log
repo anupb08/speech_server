@@ -1,2 +1,74 @@
 [I 200315 06:05:09 SpeechRecognition:36] Server started on port : 5010
 [I 200315 06:06:57 SpeechRecognition:36] Server started on port : 5010
+[I 200315 06:17:19 SpeechRecognition:36] Server started on port : 5010
+[I 200315 06:17:50 BaseHandler:26] {"Method": "POST", "URL": "/api/start_file_transcription?request_id=5e6dc88e3a24a00b061ea477&model=model-1&is_timestamp=1&file_path=/home/ubuntu/anup_backend/uploads/1584253070775intro.wav", "Remote_IP": "127.0.0.1"}
+[I 200315 06:17:50 web:2106] 200 POST /api/start_file_transcription?request_id=5e6dc88e3a24a00b061ea477&model=model-1&is_timestamp=1&file_path=/home/ubuntu/anup_backend/uploads/1584253070775intro.wav (127.0.0.1) 41.22ms
+[I 200315 06:17:50 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc88e3a24a00b061ea477", "Remote_IP": "127.0.0.1"}
+[I 200315 06:17:50 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc88e3a24a00b061ea477 (127.0.0.1) 27.89ms
+[I 200315 06:18:10 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc88e3a24a00b061ea477", "Remote_IP": "127.0.0.1"}
+[I 200315 06:18:10 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc88e3a24a00b061ea477 (127.0.0.1) 26.64ms
+[I 200315 06:18:30 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc88e3a24a00b061ea477", "Remote_IP": "127.0.0.1"}
+[I 200315 06:18:30 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc88e3a24a00b061ea477 (127.0.0.1) 25.96ms
+[I 200315 06:18:50 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc88e3a24a00b061ea477", "Remote_IP": "127.0.0.1"}
+[I 200315 06:18:50 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc88e3a24a00b061ea477 (127.0.0.1) 25.82ms
+[I 200315 06:20:10 SpeechRecognition:36] Server started on port : 5010
+[I 200315 06:20:38 BaseHandler:26] {"Method": "POST", "URL": "/api/start_file_transcription?request_id=5e6dc9363a24a00b061ea478&model=model-1&is_timestamp=1&file_path=/home/ubuntu/anup_backend/uploads/1584253238132intro.wav", "Remote_IP": "127.0.0.1"}
+[I 200315 06:20:38 web:2106] 200 POST /api/start_file_transcription?request_id=5e6dc9363a24a00b061ea478&model=model-1&is_timestamp=1&file_path=/home/ubuntu/anup_backend/uploads/1584253238132intro.wav (127.0.0.1) 35.98ms
+[I 200315 06:20:38 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:20:38 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 27.82ms
+[I 200315 06:20:58 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:20:58 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 26.99ms
+[I 200315 06:21:18 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:21:18 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 26.30ms
+[I 200315 06:21:38 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:21:38 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 26.47ms
+[I 200315 06:21:58 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:21:58 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 27.13ms
+[I 200315 06:22:18 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:22:18 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 26.42ms
+[I 200315 06:22:38 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:22:38 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 27.23ms
+[I 200315 06:22:58 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:22:58 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 27.13ms
+[I 200315 06:23:18 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:23:18 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 27.32ms
+[I 200315 06:23:38 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:23:38 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 26.75ms
+[I 200315 06:23:58 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:23:58 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 26.85ms
+[I 200315 06:24:18 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:24:18 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 26.81ms
+[I 200315 06:24:38 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:24:38 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 26.81ms
+[I 200315 06:24:58 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:24:58 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 26.53ms
+[I 200315 06:25:18 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:25:18 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 26.65ms
+[I 200315 06:25:38 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:25:38 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 26.68ms
+[I 200315 06:25:58 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:25:58 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 26.77ms
+[I 200315 06:26:18 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478", "Remote_IP": "127.0.0.1"}
+[I 200315 06:26:18 web:2106] 200 GET /api/get_transcription_status?request_id=5e6dc9363a24a00b061ea478 (127.0.0.1) 27.24ms
+[I 200315 07:59:47 SpeechRecognition:36] Server started on port : 5010
+[I 200315 08:00:31 BaseHandler:26] {"Method": "POST", "URL": "/api/start_file_transcription?request_id=5e6de09f3a24a00b061ea479&model=model-1&is_timestamp=1&file_path=/home/ubuntu/anup_backend/uploads/1584259231497intro.wav", "Remote_IP": "127.0.0.1"}
+[I 200315 08:00:31 web:2106] 200 POST /api/start_file_transcription?request_id=5e6de09f3a24a00b061ea479&model=model-1&is_timestamp=1&file_path=/home/ubuntu/anup_backend/uploads/1584259231497intro.wav (127.0.0.1) 35.75ms
+[I 200315 08:00:31 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6de09f3a24a00b061ea479", "Remote_IP": "127.0.0.1"}
+[I 200315 08:00:31 web:2106] 200 GET /api/get_transcription_status?request_id=5e6de09f3a24a00b061ea479 (127.0.0.1) 27.82ms
+[I 200315 08:00:51 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6de09f3a24a00b061ea479", "Remote_IP": "127.0.0.1"}
+[I 200315 08:00:51 web:2106] 200 GET /api/get_transcription_status?request_id=5e6de09f3a24a00b061ea479 (127.0.0.1) 26.18ms
+[I 200315 08:01:11 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6de09f3a24a00b061ea479", "Remote_IP": "127.0.0.1"}
+[I 200315 08:01:11 web:2106] 200 GET /api/get_transcription_status?request_id=5e6de09f3a24a00b061ea479 (127.0.0.1) 25.89ms
+[I 200315 08:01:31 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6de09f3a24a00b061ea479", "Remote_IP": "127.0.0.1"}
+[I 200315 08:01:31 web:2106] 200 GET /api/get_transcription_status?request_id=5e6de09f3a24a00b061ea479 (127.0.0.1) 26.48ms
+[I 200315 08:26:28 SpeechRecognition:36] Server started on port : 5010
+[I 200315 08:26:55 BaseHandler:26] {"Method": "POST", "URL": "/api/start_file_transcription?request_id=5e6de6cf3a24a00b061ea47a&model=model-1&is_timestamp=1&file_path=/home/ubuntu/anup_backend/uploads/1584260815870intro.wav", "Remote_IP": "127.0.0.1"}
+[I 200315 08:26:55 web:2106] 200 POST /api/start_file_transcription?request_id=5e6de6cf3a24a00b061ea47a&model=model-1&is_timestamp=1&file_path=/home/ubuntu/anup_backend/uploads/1584260815870intro.wav (127.0.0.1) 36.05ms
+[I 200315 08:26:55 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6de6cf3a24a00b061ea47a", "Remote_IP": "127.0.0.1"}
+[I 200315 08:26:55 web:2106] 200 GET /api/get_transcription_status?request_id=5e6de6cf3a24a00b061ea47a (127.0.0.1) 28.94ms
+[I 200315 08:27:15 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6de6cf3a24a00b061ea47a", "Remote_IP": "127.0.0.1"}
+[I 200315 08:27:15 web:2106] 200 GET /api/get_transcription_status?request_id=5e6de6cf3a24a00b061ea47a (127.0.0.1) 27.72ms
+[I 200315 08:27:35 BaseHandler:26] {"Method": "GET", "URL": "/api/get_transcription_status?request_id=5e6de6cf3a24a00b061ea47a", "Remote_IP": "127.0.0.1"}
+[I 200315 08:27:36 web:2106] 200 GET /api/get_transcription_status?request_id=5e6de6cf3a24a00b061ea47a (127.0.0.1) 55.02ms
+[I 200315 08:28:52 BaseHandler:26] {"Method": "POST", "URL": "/api/start_file_transcription?request_id=5e6de7443a24a00b061ea47b&model=model-1&is_timestamp=1&file_path=/home/ubuntu/anup_backend/uploads/1584260932223lec6.mp3", "Remote_IP": "127.0.0.1"}
+[I 200315 08:28:52 web:2106] 200 POST /api/start_file_transcription?request_id=5e6de7443a24a00b061ea47b&model=model-1&is_timestamp=1&file_path=/home/ubuntu/anup_backend/uploads/1584260932223lec6.mp3 (127.0.0.1) 5.12ms

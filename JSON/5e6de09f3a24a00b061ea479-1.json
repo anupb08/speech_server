@@ -1,0 +1,4508 @@
+{
+  "action": "audio-transcribe",
+  "retval": {
+    "status": true,
+    "wonid": "octo:2692ea33-d595-41d8-bfd5-aa7f2d2f89ee",
+    "punct": "hello everyone welcome to introduction to mooc course on electric vehicles so this course is you can consider as a first level course on electric vehicles the aim of this course is to enable students to learn the basic operation and the working principle of the different aspects of electric vehicles it will also help students to pursue a carrier in electric vehicles which is coming up in a big way so all of you may be aware of the government schemes in this area like fame which is faster adoption and manufacturing of electric vehicles in india secondly national mission in electric mobility so these are two main schemes of government which are enabling in manufacturing and development and design of avs in a you know in a total way so the government is targeting you know lot of manufacturing and be for that what we need is say skilled manpower so students can hope a very good carrier in electric vehicles the near future so but this course will cover so this will cover basically the operation of battery driven electric vehicles we can also cover hybrid electric vehicles but to a smaller level in may be a next modules so the course will start with introduction section which is very important for any course so it will help students to know the different areas which come under the umbrella of electric vehicles is a big area is a very big area because when you start manufacturing any electric vehicle you will know that say it covers you know all domains of engineering it requires electrical background mechanical background chemical background may be automobile engineering background so through this course we are trying to bridge this gap so the students can you know will work on the inertia and start learning this domain the main focus areas which come under electrical domain are vehicle dynamics automotive electronics which is dominantly power electronics motor drives means the control of different types of electrical motors understanding and operating batteries of different types then the charging infrastructure how to charges by trees and keep them in good condition it also covers you know the coming areas of electric vehicles later to power create such as v equal to grid grid to vehicle because the charging of electric vehicles depends on the quality of power grid and it will affect the power grid in written another important aspect of this course is that it will be kind of a design course students can expect that lot of numericals as well as you know simulations the simulation can be done in any software but like c or whichever students will like to prefer from the point of this course we will demonstrate those design examples using matlabsimulink at the end of this course the design and simulation exercises will enable students to connect to real time applications they can take the data of the present tvs like two wheelers three wheelers four wheelers and so on and check their performances in mat lab exercises so is a kind of you know adhering to real time applications so thank you everyone for listening to this introduction video and i welcome students to join this course",
+    "words": [
+      {
+        "start": 0.18,
+        "confidence": 0.9,
+        "end": 0.51,
+        "word": "hello",
+        "punct": "hello",
+        "index": 0
+      },
+      {
+        "start": 0.51,
+        "confidence": 0.9,
+        "end": 0.99,
+        "word": "everyone",
+        "punct": "everyone",
+        "index": 1
+      },
+      {
+        "start": 1.77,
+        "confidence": 0.9,
+        "end": 2.16,
+        "word": "welcome",
+        "punct": "welcome",
+        "index": 2
+      },
+      {
+        "start": 2.16,
+        "confidence": 0.9,
+        "end": 2.2800000000000002,
+        "word": "to",
+        "punct": "to",
+        "index": 3
+      },
+      {
+        "start": 2.28,
+        "confidence": 0.9,
+        "end": 2.79,
+        "word": "introduction",
+        "punct": "introduction",
+        "index": 4
+      },
+      {
+        "start": 2.82,
+        "confidence": 0.9,
+        "end": 3.27,
+        "word": "to",
+        "punct": "to",
+        "index": 5
+      },
+      {
+        "start": 3.63,
+        "confidence": 0.9,
+        "end": 3.96,
+        "word": "mooc",
+        "punct": "mooc",
+        "index": 6
+      },
+      {
+        "start": 3.99,
+        "confidence": 0.9,
+        "end": 4.3500000000000005,
+        "word": "course",
+        "punct": "course",
+        "index": 7
+      },
+      {
+        "start": 4.35,
+        "confidence": 0.9,
+        "end": 4.5,
+        "word": "on",
+        "punct": "on",
+        "index": 8
+      },
+      {
+        "start": 4.5,
+        "confidence": 0.9,
+        "end": 4.89,
+        "word": "electric",
+        "punct": "electric",
+        "index": 9
+      },
+      {
+        "start": 4.89,
+        "confidence": 0.9,
+        "end": 5.489999999999999,
+        "word": "vehicles",
+        "punct": "vehicles",
+        "index": 10
+      },
+      {
+        "start": 6.54,
+        "confidence": 0.9,
+        "end": 6.66,
+        "word": "so",
+        "punct": "so",
+        "index": 11
+      },
+      {
+        "start": 6.66,
+        "confidence": 0.9,
+        "end": 6.9,
+        "word": "this",
+        "punct": "this",
+        "index": 12
+      },
+      {
+        "start": 6.9,
+        "confidence": 0.9,
+        "end": 7.29,
+        "word": "course",
+        "punct": "course",
+        "index": 13
+      },
+      {
+        "start": 7.29,
+        "confidence": 0.9,
+        "end": 7.65,
+        "word": "is",
+        "punct": "is",
+        "index": 14
+      },
+      {
+        "start": 7.92,
+        "confidence": 0.9,
+        "end": 8.07,
+        "word": "you",
+        "punct": "you",
+        "index": 15
+      },
+      {
+        "start": 8.07,
+        "confidence": 0.9,
+        "end": 8.31,
+        "word": "can",
+        "punct": "can",
+        "index": 16
+      },
+      {
+        "start": 8.31,
+        "confidence": 0.9,
+        "end": 8.700000000000001,
+        "word": "consider",
+        "punct": "consider",
+        "index": 17
+      },
+      {
+        "start": 8.7,
+        "confidence": 0.9,
+        "end": 8.819999999999999,
+        "word": "as",
+        "punct": "as",
+        "index": 18
+      },
+      {
+        "start": 8.82,
+        "confidence": 0.9,
+        "end": 8.88,
+        "word": "a",
+        "punct": "a",
+        "index": 19
+      },
+      {
+        "start": 8.88,
+        "confidence": 0.9,
+        "end": 9.15,
+        "word": "first",
+        "punct": "first",
+        "index": 20
+      },
+      {
+        "start": 9.15,
+        "confidence": 0.9,
+        "end": 9.360000000000001,
+        "word": "level",
+        "punct": "level",
+        "index": 21
+      },
+      {
+        "start": 9.36,
+        "confidence": 0.9,
+        "end": 9.629999999999999,
+        "word": "course",
+        "punct": "course",
+        "index": 22
+      },
+      {
+        "start": 9.63,
+        "confidence": 0.9,
+        "end": 9.72,
+        "word": "on",
+        "punct": "on",
+        "index": 23
+      },
+      {
+        "start": 9.72,
+        "confidence": 0.9,
+        "end": 10.05,
+        "word": "electric",
+        "punct": "electric",
+        "index": 24
+      },
+      {
+        "start": 10.05,
+        "confidence": 0.9,
+        "end": 10.65,
+        "word": "vehicles",
+        "punct": "vehicles",
+        "index": 25
+      },
+      {
+        "start": 11.55,
+        "confidence": 0.9,
+        "end": 11.73,
+        "word": "the",
+        "punct": "the",
+        "index": 26
+      },
+      {
+        "start": 11.73,
+        "confidence": 0.9,
+        "end": 11.940000000000001,
+        "word": "aim",
+        "punct": "aim",
+        "index": 27
+      },
+      {
+        "start": 11.94,
+        "confidence": 0.9,
+        "end": 12.03,
+        "word": "of",
+        "punct": "of",
+        "index": 28
+      },
+      {
+        "start": 12.03,
+        "confidence": 0.9,
+        "end": 12.24,
+        "word": "this",
+        "punct": "this",
+        "index": 29
+      },
+      {
+        "start": 12.24,
+        "confidence": 0.9,
+        "end": 12.63,
+        "word": "course",
+        "punct": "course",
+        "index": 30
+      },
+      {
+        "start": 12.66,
+        "confidence": 0.9,
+        "end": 12.870000000000001,
+        "word": "is",
+        "punct": "is",
+        "index": 31
+      },
+      {
+        "start": 12.87,
+        "confidence": 0.9,
+        "end": 13.319999999999999,
+        "word": "to",
+        "punct": "to",
+        "index": 32
+      },
+      {
+        "start": 13.38,
+        "confidence": 0.9,
+        "end": 13.74,
+        "word": "enable",
+        "punct": "enable",
+        "index": 33
+      },
+      {
+        "start": 13.74,
+        "confidence": 0.9,
+        "end": 14.4,
+        "word": "students",
+        "punct": "students",
+        "index": 34
+      },
+      {
+        "start": 16.02,
+        "confidence": 0.9,
+        "end": 16.26,
+        "word": "to",
+        "punct": "to",
+        "index": 35
+      },
+      {
+        "start": 16.26,
+        "confidence": 0.9,
+        "end": 16.53,
+        "word": "learn",
+        "punct": "learn",
+        "index": 36
+      },
+      {
+        "start": 16.53,
+        "confidence": 0.9,
+        "end": 16.62,
+        "word": "the",
+        "punct": "the",
+        "index": 37
+      },
+      {
+        "start": 16.62,
+        "confidence": 0.9,
+        "end": 17.07,
+        "word": "basic",
+        "punct": "basic",
+        "index": 38
+      },
+      {
+        "start": 17.07,
+        "confidence": 0.9,
+        "end": 17.7,
+        "word": "operation",
+        "punct": "operation",
+        "index": 39
+      },
+      {
+        "start": 18.12,
+        "confidence": 0.9,
+        "end": 18.33,
+        "word": "and",
+        "punct": "and",
+        "index": 40
+      },
+      {
+        "start": 18.33,
+        "confidence": 0.9,
+        "end": 18.6,
+        "word": "the",
+        "punct": "the",
+        "index": 41
+      },
+      {
+        "start": 18.66,
+        "confidence": 0.9,
+        "end": 19.05,
+        "word": "working",
+        "punct": "working",
+        "index": 42
+      },
+      {
+        "start": 19.05,
+        "confidence": 0.9,
+        "end": 19.71,
+        "word": "principle",
+        "punct": "principle",
+        "index": 43
+      },
+      {
+        "start": 20.46,
+        "confidence": 0.9,
+        "end": 20.58,
+        "word": "of",
+        "punct": "of",
+        "index": 44
+      },
+      {
+        "start": 20.58,
+        "confidence": 0.9,
+        "end": 20.7,
+        "word": "the",
+        "punct": "the",
+        "index": 45
+      },
+      {
+        "start": 20.7,
+        "confidence": 0.9,
+        "end": 21.060000000000002,
+        "word": "different",
+        "punct": "different",
+        "index": 46
+      },
+      {
+        "start": 21.060000000000002,
+        "confidence": 0.9,
+        "end": 21.42,
+        "word": "aspects",
+        "punct": "aspects",
+        "index": 47
+      },
+      {
+        "start": 21.42,
+        "confidence": 0.9,
+        "end": 21.509999999999998,
+        "word": "of",
+        "punct": "of",
+        "index": 48
+      },
+      {
+        "start": 21.509999999999998,
+        "confidence": 0.9,
+        "end": 21.87,
+        "word": "electric",
+        "punct": "electric",
+        "index": 49
+      },
+      {
+        "start": 21.87,
+        "confidence": 0.9,
+        "end": 22.23,
+        "word": "vehicles",
+        "punct": "vehicles",
+        "index": 50
+      },
+      {
+        "start": 23.939999999999998,
+        "confidence": 0.9,
+        "end": 24.119999999999997,
+        "word": "it",
+        "punct": "it",
+        "index": 51
+      },
+      {
+        "start": 24.12,
+        "confidence": 0.9,
+        "end": 24.39,
+        "word": "will",
+        "punct": "will",
+        "index": 52
+      },
+      {
+        "start": 24.45,
+        "confidence": 0.9,
+        "end": 24.84,
+        "word": "also",
+        "punct": "also",
+        "index": 53
+      },
+      {
+        "start": 24.84,
+        "confidence": 0.9,
+        "end": 25.11,
+        "word": "help",
+        "punct": "help",
+        "index": 54
+      },
+      {
+        "start": 25.11,
+        "confidence": 0.9,
+        "end": 25.83,
+        "word": "students",
+        "punct": "students",
+        "index": 55
+      },
+      {
+        "start": 26.4,
+        "confidence": 0.9,
+        "end": 26.55,
+        "word": "to",
+        "punct": "to",
+        "index": 56
+      },
+      {
+        "start": 26.55,
+        "confidence": 0.9,
+        "end": 27.0,
+        "word": "pursue",
+        "punct": "pursue",
+        "index": 57
+      },
+      {
+        "start": 27.0,
+        "confidence": 0.9,
+        "end": 27.060000000000002,
+        "word": "a",
+        "punct": "a",
+        "index": 58
+      },
+      {
+        "start": 27.060000000000002,
+        "confidence": 0.9,
+        "end": 27.48,
+        "word": "carrier",
+        "punct": "carrier",
+        "index": 59
+      },
+      {
+        "start": 27.48,
+        "confidence": 0.9,
+        "end": 27.6,
+        "word": "in",
+        "punct": "in",
+        "index": 60
+      },
+      {
+        "start": 27.6,
+        "confidence": 0.9,
+        "end": 27.96,
+        "word": "electric",
+        "punct": "electric",
+        "index": 61
+      },
+      {
+        "start": 27.96,
+        "confidence": 0.9,
+        "end": 28.41,
+        "word": "vehicles",
+        "punct": "vehicles",
+        "index": 62
+      },
+      {
+        "start": 28.439999999999998,
+        "confidence": 0.9,
+        "end": 28.619999999999997,
+        "word": "which",
+        "punct": "which",
+        "index": 63
+      },
+      {
+        "start": 28.62,
+        "confidence": 0.9,
+        "end": 28.71,
+        "word": "is",
+        "punct": "is",
+        "index": 64
+      },
+      {
+        "start": 28.71,
+        "confidence": 0.9,
+        "end": 28.98,
+        "word": "coming",
+        "punct": "coming",
+        "index": 65
+      },
+      {
+        "start": 28.98,
+        "confidence": 0.9,
+        "end": 29.130000000000003,
+        "word": "up",
+        "punct": "up",
+        "index": 66
+      },
+      {
+        "start": 29.130000000000003,
+        "confidence": 0.9,
+        "end": 29.22,
+        "word": "in",
+        "punct": "in",
+        "index": 67
+      },
+      {
+        "start": 29.22,
+        "confidence": 0.9,
+        "end": 29.28,
+        "word": "a",
+        "punct": "a",
+        "index": 68
+      },
+      {
+        "start": 29.28,
+        "confidence": 0.9,
+        "end": 29.490000000000002,
+        "word": "big",
+        "punct": "big",
+        "index": 69
+      },
+      {
+        "start": 29.490000000000002,
+        "confidence": 0.9,
+        "end": 29.73,
+        "word": "way",
+        "punct": "way",
+        "index": 70
+      },
+      {
+        "start": 31.5,
+        "confidence": 0.9,
+        "end": 31.68,
+        "word": "so",
+        "punct": "so",
+        "index": 71
+      },
+      {
+        "start": 31.68,
+        "confidence": 0.9,
+        "end": 31.83,
+        "word": "all",
+        "punct": "all",
+        "index": 72
+      },
+      {
+        "start": 31.83,
+        "confidence": 0.9,
+        "end": 31.95,
+        "word": "of",
+        "punct": "of",
+        "index": 73
+      },
+      {
+        "start": 31.95,
+        "confidence": 0.9,
+        "end": 32.07,
+        "word": "you",
+        "punct": "you",
+        "index": 74
+      },
+      {
+        "start": 32.07,
+        "confidence": 0.9,
+        "end": 32.22,
+        "word": "may",
+        "punct": "may",
+        "index": 75
+      },
+      {
+        "start": 32.22,
+        "confidence": 0.9,
+        "end": 32.37,
+        "word": "be",
+        "punct": "be",
+        "index": 76
+      },
+      {
+        "start": 32.37,
+        "confidence": 0.9,
+        "end": 32.73,
+        "word": "aware",
+        "punct": "aware",
+        "index": 77
+      },
+      {
+        "start": 32.73,
+        "confidence": 0.9,
+        "end": 32.82,
+        "word": "of",
+        "punct": "of",
+        "index": 78
+      },
+      {
+        "start": 32.82,
+        "confidence": 0.9,
+        "end": 33.0,
+        "word": "the",
+        "punct": "the",
+        "index": 79
+      },
+      {
+        "start": 33.0,
+        "confidence": 0.9,
+        "end": 33.42,
+        "word": "government",
+        "punct": "government",
+        "index": 80
+      },
+      {
+        "start": 33.42,
+        "confidence": 0.9,
+        "end": 33.9,
+        "word": "schemes",
+        "punct": "schemes",
+        "index": 81
+      },
+      {
+        "start": 33.9,
+        "confidence": 0.9,
+        "end": 33.99,
+        "word": "in",
+        "punct": "in",
+        "index": 82
+      },
+      {
+        "start": 33.99,
+        "confidence": 0.9,
+        "end": 34.11,
+        "word": "this",
+        "punct": "this",
+        "index": 83
+      },
+      {
+        "start": 34.11,
+        "confidence": 0.9,
+        "end": 34.59,
+        "word": "area",
+        "punct": "area",
+        "index": 84
+      },
+      {
+        "start": 34.65,
+        "confidence": 0.9,
+        "end": 34.95,
+        "word": "like",
+        "punct": "like",
+        "index": 85
+      },
+      {
+        "start": 34.95,
+        "confidence": 0.9,
+        "end": 35.43,
+        "word": "fame",
+        "punct": "fame",
+        "index": 86
+      },
+      {
+        "start": 35.76,
+        "confidence": 0.9,
+        "end": 36.0,
+        "word": "which",
+        "punct": "which",
+        "index": 87
+      },
+      {
+        "start": 36.0,
+        "confidence": 0.9,
+        "end": 36.24,
+        "word": "is",
+        "punct": "is",
+        "index": 88
+      },
+      {
+        "start": 38.07,
+        "confidence": 0.9,
+        "end": 38.46,
+        "word": "faster",
+        "punct": "faster",
+        "index": 89
+      },
+      {
+        "start": 38.46,
+        "confidence": 0.9,
+        "end": 38.88,
+        "word": "adoption",
+        "punct": "adoption",
+        "index": 90
+      },
+      {
+        "start": 39.03,
+        "confidence": 0.9,
+        "end": 39.33,
+        "word": "and",
+        "punct": "and",
+        "index": 91
+      },
+      {
+        "start": 39.33,
+        "confidence": 0.9,
+        "end": 39.96,
+        "word": "manufacturing",
+        "punct": "manufacturing",
+        "index": 92
+      },
+      {
+        "start": 39.96,
+        "confidence": 0.9,
+        "end": 40.11,
+        "word": "of",
+        "punct": "of",
+        "index": 93
+      },
+      {
+        "start": 40.11,
+        "confidence": 0.9,
+        "end": 40.44,
+        "word": "electric",
+        "punct": "electric",
+        "index": 94
+      },
+      {
+        "start": 40.44,
+        "confidence": 0.9,
+        "end": 40.86,
+        "word": "vehicles",
+        "punct": "vehicles",
+        "index": 95
+      },
+      {
+        "start": 40.86,
+        "confidence": 0.9,
+        "end": 40.95,
+        "word": "in",
+        "punct": "in",
+        "index": 96
+      },
+      {
+        "start": 40.95,
+        "confidence": 0.9,
+        "end": 41.37,
+        "word": "india",
+        "punct": "india",
+        "index": 97
+      },
+      {
+        "start": 41.97,
+        "confidence": 0.9,
+        "end": 42.75,
+        "word": "secondly",
+        "punct": "secondly",
+        "index": 98
+      },
+      {
+        "start": 42.78,
+        "confidence": 0.9,
+        "end": 43.23,
+        "word": "national",
+        "punct": "national",
+        "index": 99
+      },
+      {
+        "start": 43.230000000000004,
+        "confidence": 0.9,
+        "end": 43.53,
+        "word": "mission",
+        "punct": "mission",
+        "index": 100
+      },
+      {
+        "start": 43.53,
+        "confidence": 0.9,
+        "end": 43.59,
+        "word": "in",
+        "punct": "in",
+        "index": 101
+      },
+      {
+        "start": 43.59,
+        "confidence": 0.9,
+        "end": 43.95,
+        "word": "electric",
+        "punct": "electric",
+        "index": 102
+      },
+      {
+        "start": 43.95,
+        "confidence": 0.9,
+        "end": 44.519999999999996,
+        "word": "mobility",
+        "punct": "mobility",
+        "index": 103
+      },
+      {
+        "start": 45.51,
+        "confidence": 0.9,
+        "end": 45.69,
+        "word": "so",
+        "punct": "so",
+        "index": 104
+      },
+      {
+        "start": 45.69,
+        "confidence": 0.9,
+        "end": 45.9,
+        "word": "these",
+        "punct": "these",
+        "index": 105
+      },
+      {
+        "start": 45.9,
+        "confidence": 0.9,
+        "end": 45.99,
+        "word": "are",
+        "punct": "are",
+        "index": 106
+      },
+      {
+        "start": 46.019999999999996,
+        "confidence": 0.9,
+        "end": 46.26,
+        "word": "two",
+        "punct": "two",
+        "index": 107
+      },
+      {
+        "start": 46.26,
+        "confidence": 0.9,
+        "end": 46.56,
+        "word": "main",
+        "punct": "main",
+        "index": 108
+      },
+      {
+        "start": 46.56,
+        "confidence": 0.9,
+        "end": 46.92,
+        "word": "schemes",
+        "punct": "schemes",
+        "index": 109
+      },
+      {
+        "start": 46.92,
+        "confidence": 0.9,
+        "end": 47.01,
+        "word": "of",
+        "punct": "of",
+        "index": 110
+      },
+      {
+        "start": 47.01,
+        "confidence": 0.9,
+        "end": 47.64,
+        "word": "government",
+        "punct": "government",
+        "index": 111
+      },
+      {
+        "start": 48.15,
+        "confidence": 0.9,
+        "end": 48.48,
+        "word": "which",
+        "punct": "which",
+        "index": 112
+      },
+      {
+        "start": 48.480000000000004,
+        "confidence": 0.9,
+        "end": 49.019999999999996,
+        "word": "are",
+        "punct": "are",
+        "index": 113
+      },
+      {
+        "start": 49.14,
+        "confidence": 0.9,
+        "end": 49.74,
+        "word": "enabling",
+        "punct": "enabling",
+        "index": 114
+      },
+      {
+        "start": 50.19,
+        "confidence": 0.9,
+        "end": 50.31,
+        "word": "in",
+        "punct": "in",
+        "index": 115
+      },
+      {
+        "start": 50.31,
+        "confidence": 0.9,
+        "end": 51.06,
+        "word": "manufacturing",
+        "punct": "manufacturing",
+        "index": 116
+      },
+      {
+        "start": 51.06,
+        "confidence": 0.9,
+        "end": 51.21,
+        "word": "and",
+        "punct": "and",
+        "index": 117
+      },
+      {
+        "start": 51.21,
+        "confidence": 0.9,
+        "end": 51.75,
+        "word": "development",
+        "punct": "development",
+        "index": 118
+      },
+      {
+        "start": 51.75,
+        "confidence": 0.9,
+        "end": 51.87,
+        "word": "and",
+        "punct": "and",
+        "index": 119
+      },
+      {
+        "start": 51.87,
+        "confidence": 0.9,
+        "end": 52.29,
+        "word": "design",
+        "punct": "design",
+        "index": 120
+      },
+      {
+        "start": 52.29,
+        "confidence": 0.9,
+        "end": 52.53,
+        "word": "of",
+        "punct": "of",
+        "index": 121
+      },
+      {
+        "start": 52.71,
+        "confidence": 0.9,
+        "end": 53.31,
+        "word": "avs",
+        "punct": "avs",
+        "index": 122
+      },
+      {
+        "start": 53.82,
+        "confidence": 0.9,
+        "end": 54.03,
+        "word": "in",
+        "punct": "in",
+        "index": 123
+      },
+      {
+        "start": 54.03,
+        "confidence": 0.9,
+        "end": 54.33,
+        "word": "a",
+        "punct": "a",
+        "index": 124
+      },
+      {
+        "start": 54.72,
+        "confidence": 0.9,
+        "end": 54.84,
+        "word": "you",
+        "punct": "you",
+        "index": 125
+      },
+      {
+        "start": 54.84,
+        "confidence": 0.9,
+        "end": 55.019999999999996,
+        "word": "know",
+        "punct": "know",
+        "index": 126
+      },
+      {
+        "start": 55.019999999999996,
+        "confidence": 0.9,
+        "end": 55.08,
+        "word": "in",
+        "punct": "in",
+        "index": 127
+      },
+      {
+        "start": 55.08,
+        "confidence": 0.9,
+        "end": 55.14,
+        "word": "a",
+        "punct": "a",
+        "index": 128
+      },
+      {
+        "start": 55.14,
+        "confidence": 0.9,
+        "end": 55.47,
+        "word": "total",
+        "punct": "total",
+        "index": 129
+      },
+      {
+        "start": 55.47,
+        "confidence": 0.9,
+        "end": 55.92,
+        "word": "way",
+        "punct": "way",
+        "index": 130
+      },
+      {
+        "start": 56.519999999999996,
+        "confidence": 0.9,
+        "end": 56.73,
+        "word": "so",
+        "punct": "so",
+        "index": 131
+      },
+      {
+        "start": 56.73,
+        "confidence": 0.9,
+        "end": 56.85,
+        "word": "the",
+        "punct": "the",
+        "index": 132
+      },
+      {
+        "start": 56.85,
+        "confidence": 0.9,
+        "end": 57.24,
+        "word": "government",
+        "punct": "government",
+        "index": 133
+      },
+      {
+        "start": 57.24,
+        "confidence": 0.9,
+        "end": 57.33,
+        "word": "is",
+        "punct": "is",
+        "index": 134
+      },
+      {
+        "start": 57.36,
+        "confidence": 0.9,
+        "end": 58.019999999999996,
+        "word": "targeting",
+        "punct": "targeting",
+        "index": 135
+      },
+      {
+        "start": 58.019999999999996,
+        "confidence": 0.9,
+        "end": 58.14,
+        "word": "you",
+        "punct": "you",
+        "index": 136
+      },
+      {
+        "start": 58.14,
+        "confidence": 0.9,
+        "end": 58.44,
+        "word": "know",
+        "punct": "know",
+        "index": 137
+      },
+      {
+        "start": 58.71,
+        "confidence": 0.9,
+        "end": 58.95,
+        "word": "lot",
+        "punct": "lot",
+        "index": 138
+      },
+      {
+        "start": 58.95,
+        "confidence": 0.9,
+        "end": 59.04,
+        "word": "of",
+        "punct": "of",
+        "index": 139
+      },
+      {
+        "start": 59.04,
+        "confidence": 0.9,
+        "end": 59.67,
+        "word": "manufacturing",
+        "punct": "manufacturing",
+        "index": 140
+      },
+      {
+        "start": 59.67,
+        "confidence": 0.9,
+        "end": 59.82,
+        "word": "and",
+        "punct": "and",
+        "index": 141
+      },
+      {
+        "start": 59.82,
+        "confidence": 0.9,
+        "end": 60.18,
+        "word": "be",
+        "punct": "be",
+        "index": 142
+      },
+      {
+        "start": 60.21,
+        "confidence": 0.9,
+        "end": 60.45,
+        "word": "for",
+        "punct": "for",
+        "index": 143
+      },
+      {
+        "start": 60.45,
+        "confidence": 0.9,
+        "end": 60.9,
+        "word": "that",
+        "punct": "that",
+        "index": 144
+      },
+      {
+        "start": 61.14,
+        "confidence": 0.9,
+        "end": 61.44,
+        "word": "what",
+        "punct": "what",
+        "index": 145
+      },
+      {
+        "start": 61.44,
+        "confidence": 0.9,
+        "end": 61.56,
+        "word": "we",
+        "punct": "we",
+        "index": 146
+      },
+      {
+        "start": 61.56,
+        "confidence": 0.9,
+        "end": 61.83,
+        "word": "need",
+        "punct": "need",
+        "index": 147
+      },
+      {
+        "start": 61.83,
+        "confidence": 0.9,
+        "end": 61.95,
+        "word": "is",
+        "punct": "is",
+        "index": 148
+      },
+      {
+        "start": 61.95,
+        "confidence": 0.9,
+        "end": 62.19,
+        "word": "say",
+        "punct": "say",
+        "index": 149
+      },
+      {
+        "start": 62.28,
+        "confidence": 0.9,
+        "end": 62.67,
+        "word": "skilled",
+        "punct": "skilled",
+        "index": 150
+      },
+      {
+        "start": 62.67,
+        "confidence": 0.9,
+        "end": 63.24,
+        "word": "manpower",
+        "punct": "manpower",
+        "index": 151
+      },
+      {
+        "start": 64.02,
+        "confidence": 0.9,
+        "end": 64.26,
+        "word": "so",
+        "punct": "so",
+        "index": 152
+      },
+      {
+        "start": 64.26,
+        "confidence": 0.9,
+        "end": 65.01,
+        "word": "students",
+        "punct": "students",
+        "index": 153
+      },
+      {
+        "start": 66.0,
+        "confidence": 0.9,
+        "end": 66.24,
+        "word": "can",
+        "punct": "can",
+        "index": 154
+      },
+      {
+        "start": 66.24,
+        "confidence": 0.9,
+        "end": 66.57,
+        "word": "hope",
+        "punct": "hope",
+        "index": 155
+      },
+      {
+        "start": 66.57,
+        "confidence": 0.9,
+        "end": 66.66,
+        "word": "a",
+        "punct": "a",
+        "index": 156
+      },
+      {
+        "start": 66.66,
+        "confidence": 0.9,
+        "end": 66.9,
+        "word": "very",
+        "punct": "very",
+        "index": 157
+      },
+      {
+        "start": 66.9,
+        "confidence": 0.9,
+        "end": 67.14,
+        "word": "good",
+        "punct": "good",
+        "index": 158
+      },
+      {
+        "start": 67.14,
+        "confidence": 0.9,
+        "end": 67.53,
+        "word": "carrier",
+        "punct": "carrier",
+        "index": 159
+      },
+      {
+        "start": 67.53,
+        "confidence": 0.9,
+        "end": 67.68,
+        "word": "in",
+        "punct": "in",
+        "index": 160
+      },
+      {
+        "start": 67.68,
+        "confidence": 0.9,
+        "end": 68.00999999999999,
+        "word": "electric",
+        "punct": "electric",
+        "index": 161
+      },
+      {
+        "start": 68.00999999999999,
+        "confidence": 0.9,
+        "end": 68.67,
+        "word": "vehicles",
+        "punct": "vehicles",
+        "index": 162
+      },
+      {
+        "start": 68.91,
+        "confidence": 0.9,
+        "end": 69.06,
+        "word": "the",
+        "punct": "the",
+        "index": 163
+      },
+      {
+        "start": 69.06,
+        "confidence": 0.9,
+        "end": 69.24,
+        "word": "near",
+        "punct": "near",
+        "index": 164
+      },
+      {
+        "start": 69.24,
+        "confidence": 0.9,
+        "end": 69.72,
+        "word": "future",
+        "punct": "future",
+        "index": 165
+      },
+      {
+        "start": 70.14,
+        "confidence": 0.9,
+        "end": 70.32,
+        "word": "so",
+        "punct": "so",
+        "index": 166
+      },
+      {
+        "start": 70.32,
+        "confidence": 0.9,
+        "end": 70.55999999999999,
+        "word": "but",
+        "punct": "but",
+        "index": 167
+      },
+      {
+        "start": 70.55999999999999,
+        "confidence": 0.9,
+        "end": 70.77,
+        "word": "this",
+        "punct": "this",
+        "index": 168
+      },
+      {
+        "start": 70.77,
+        "confidence": 0.9,
+        "end": 71.1,
+        "word": "course",
+        "punct": "course",
+        "index": 169
+      },
+      {
+        "start": 71.1,
+        "confidence": 0.9,
+        "end": 71.22,
+        "word": "will",
+        "punct": "will",
+        "index": 170
+      },
+      {
+        "start": 71.22,
+        "confidence": 0.9,
+        "end": 71.61,
+        "word": "cover",
+        "punct": "cover",
+        "index": 171
+      },
+      {
+        "start": 72.72,
+        "confidence": 0.9,
+        "end": 72.89999999999999,
+        "word": "so",
+        "punct": "so",
+        "index": 172
+      },
+      {
+        "start": 72.89999999999999,
+        "confidence": 0.9,
+        "end": 73.16999999999999,
+        "word": "this",
+        "punct": "this",
+        "index": 173
+      },
+      {
+        "start": 73.16999999999999,
+        "confidence": 0.9,
+        "end": 73.28999999999999,
+        "word": "will",
+        "punct": "will",
+        "index": 174
+      },
+      {
+        "start": 73.28999999999999,
+        "confidence": 0.9,
+        "end": 73.83,
+        "word": "cover",
+        "punct": "cover",
+        "index": 175
+      },
+      {
+        "start": 73.91999999999999,
+        "confidence": 0.9,
+        "end": 74.66999999999999,
+        "word": "basically",
+        "punct": "basically",
+        "index": 176
+      },
+      {
+        "start": 74.66999999999999,
+        "confidence": 0.9,
+        "end": 74.78999999999999,
+        "word": "the",
+        "punct": "the",
+        "index": 177
+      },
+      {
+        "start": 74.78999999999999,
+        "confidence": 0.9,
+        "end": 75.36,
+        "word": "operation",
+        "punct": "operation",
+        "index": 178
+      },
+      {
+        "start": 75.36,
+        "confidence": 0.9,
+        "end": 75.50999999999999,
+        "word": "of",
+        "punct": "of",
+        "index": 179
+      },
+      {
+        "start": 75.53999999999999,
+        "confidence": 0.9,
+        "end": 75.92999999999999,
+        "word": "battery",
+        "punct": "battery",
+        "index": 180
+      },
+      {
+        "start": 75.92999999999999,
+        "confidence": 0.9,
+        "end": 76.19999999999999,
+        "word": "driven",
+        "punct": "driven",
+        "index": 181
+      },
+      {
+        "start": 76.19999999999999,
+        "confidence": 0.9,
+        "end": 76.5,
+        "word": "electric",
+        "punct": "electric",
+        "index": 182
+      },
+      {
+        "start": 76.5,
+        "confidence": 0.9,
+        "end": 77.1,
+        "word": "vehicles",
+        "punct": "vehicles",
+        "index": 183
+      },
+      {
+        "start": 77.91,
+        "confidence": 0.9,
+        "end": 78.03,
+        "word": "we",
+        "punct": "we",
+        "index": 184
+      },
+      {
+        "start": 78.03,
+        "confidence": 0.9,
+        "end": 78.21,
+        "word": "can",
+        "punct": "can",
+        "index": 185
+      },
+      {
+        "start": 78.21,
+        "confidence": 0.9,
+        "end": 78.47999999999999,
+        "word": "also",
+        "punct": "also",
+        "index": 186
+      },
+      {
+        "start": 78.47999999999999,
+        "confidence": 0.9,
+        "end": 78.89999999999999,
+        "word": "cover",
+        "punct": "cover",
+        "index": 187
+      },
+      {
+        "start": 79.44,
+        "confidence": 0.9,
+        "end": 79.91999999999999,
+        "word": "hybrid",
+        "punct": "hybrid",
+        "index": 188
+      },
+      {
+        "start": 79.91999999999999,
+        "confidence": 0.9,
+        "end": 80.22,
+        "word": "electric",
+        "punct": "electric",
+        "index": 189
+      },
+      {
+        "start": 80.22,
+        "confidence": 0.9,
+        "end": 80.55,
+        "word": "vehicles",
+        "punct": "vehicles",
+        "index": 190
+      },
+      {
+        "start": 80.55,
+        "confidence": 0.9,
+        "end": 80.94,
+        "word": "but",
+        "punct": "but",
+        "index": 191
+      },
+      {
+        "start": 81.83999999999999,
+        "confidence": 0.9,
+        "end": 82.02,
+        "word": "to",
+        "punct": "to",
+        "index": 192
+      },
+      {
+        "start": 82.02,
+        "confidence": 0.9,
+        "end": 82.11,
+        "word": "a",
+        "punct": "a",
+        "index": 193
+      },
+      {
+        "start": 82.11,
+        "confidence": 0.9,
+        "end": 82.71,
+        "word": "smaller",
+        "punct": "smaller",
+        "index": 194
+      },
+      {
+        "start": 83.63999999999999,
+        "confidence": 0.9,
+        "end": 84.14999999999999,
+        "word": "level",
+        "punct": "level",
+        "index": 195
+      },
+      {
+        "start": 85.32,
+        "confidence": 0.9,
+        "end": 85.53,
+        "word": "in",
+        "punct": "in",
+        "index": 196
+      },
+      {
+        "start": 85.53,
+        "confidence": 0.9,
+        "end": 85.67999999999999,
+        "word": "may",
+        "punct": "may",
+        "index": 197
+      },
+      {
+        "start": 85.67999999999999,
+        "confidence": 0.9,
+        "end": 85.91999999999999,
+        "word": "be",
+        "punct": "be",
+        "index": 198
+      },
+      {
+        "start": 85.91999999999999,
+        "confidence": 0.9,
+        "end": 86.28,
+        "word": "a",
+        "punct": "a",
+        "index": 199
+      },
+      {
+        "start": 86.66999999999999,
+        "confidence": 0.9,
+        "end": 87.0,
+        "word": "next",
+        "punct": "next",
+        "index": 200
+      },
+      {
+        "start": 87.0,
+        "confidence": 0.9,
+        "end": 87.6,
+        "word": "modules",
+        "punct": "modules",
+        "index": 201
+      },
+      {
+        "start": 88.22999999999999,
+        "confidence": 0.9,
+        "end": 88.44,
+        "word": "so",
+        "punct": "so",
+        "index": 202
+      },
+      {
+        "start": 88.44,
+        "confidence": 0.9,
+        "end": 88.56,
+        "word": "the",
+        "punct": "the",
+        "index": 203
+      },
+      {
+        "start": 88.56,
+        "confidence": 0.9,
+        "end": 88.94999999999999,
+        "word": "course",
+        "punct": "course",
+        "index": 204
+      },
+      {
+        "start": 88.94999999999999,
+        "confidence": 0.9,
+        "end": 89.03999999999999,
+        "word": "will",
+        "punct": "will",
+        "index": 205
+      },
+      {
+        "start": 89.03999999999999,
+        "confidence": 0.9,
+        "end": 89.69999999999999,
+        "word": "start",
+        "punct": "start",
+        "index": 206
+      },
+      {
+        "start": 90.21000000000001,
+        "confidence": 0.9,
+        "end": 90.39,
+        "word": "with",
+        "punct": "with",
+        "index": 207
+      },
+      {
+        "start": 90.39,
+        "confidence": 0.9,
+        "end": 90.93,
+        "word": "introduction",
+        "punct": "introduction",
+        "index": 208
+      },
+      {
+        "start": 90.93,
+        "confidence": 0.9,
+        "end": 91.44,
+        "word": "section",
+        "punct": "section",
+        "index": 209
+      },
+      {
+        "start": 91.62,
+        "confidence": 0.9,
+        "end": 91.83,
+        "word": "which",
+        "punct": "which",
+        "index": 210
+      },
+      {
+        "start": 91.83,
+        "confidence": 0.9,
+        "end": 91.95,
+        "word": "is",
+        "punct": "is",
+        "index": 211
+      },
+      {
+        "start": 91.95,
+        "confidence": 0.9,
+        "end": 92.16,
+        "word": "very",
+        "punct": "very",
+        "index": 212
+      },
+      {
+        "start": 92.16,
+        "confidence": 0.9,
+        "end": 92.64,
+        "word": "important",
+        "punct": "important",
+        "index": 213
+      },
+      {
+        "start": 92.64,
+        "confidence": 0.9,
+        "end": 92.79,
+        "word": "for",
+        "punct": "for",
+        "index": 214
+      },
+      {
+        "start": 92.79,
+        "confidence": 0.9,
+        "end": 92.97,
+        "word": "any",
+        "punct": "any",
+        "index": 215
+      },
+      {
+        "start": 92.97,
+        "confidence": 0.9,
+        "end": 93.45,
+        "word": "course",
+        "punct": "course",
+        "index": 216
+      },
+      {
+        "start": 94.77,
+        "confidence": 0.9,
+        "end": 94.95,
+        "word": "so",
+        "punct": "so",
+        "index": 217
+      },
+      {
+        "start": 94.95,
+        "confidence": 0.9,
+        "end": 95.07000000000001,
+        "word": "it",
+        "punct": "it",
+        "index": 218
+      },
+      {
+        "start": 95.07000000000001,
+        "confidence": 0.9,
+        "end": 95.4,
+        "word": "will",
+        "punct": "will",
+        "index": 219
+      },
+      {
+        "start": 95.64,
+        "confidence": 0.9,
+        "end": 96.03,
+        "word": "help",
+        "punct": "help",
+        "index": 220
+      },
+      {
+        "start": 96.03,
+        "confidence": 0.9,
+        "end": 96.51,
+        "word": "students",
+        "punct": "students",
+        "index": 221
+      },
+      {
+        "start": 96.54,
+        "confidence": 0.9,
+        "end": 97.02,
+        "word": "to",
+        "punct": "to",
+        "index": 222
+      },
+      {
+        "start": 97.2,
+        "confidence": 0.9,
+        "end": 97.8,
+        "word": "know",
+        "punct": "know",
+        "index": 223
+      },
+      {
+        "start": 98.58,
+        "confidence": 0.9,
+        "end": 98.76,
+        "word": "the",
+        "punct": "the",
+        "index": 224
+      },
+      {
+        "start": 98.76,
+        "confidence": 0.9,
+        "end": 99.21000000000001,
+        "word": "different",
+        "punct": "different",
+        "index": 225
+      },
+      {
+        "start": 99.24000000000001,
+        "confidence": 0.9,
+        "end": 99.81,
+        "word": "areas",
+        "punct": "areas",
+        "index": 226
+      },
+      {
+        "start": 99.84,
+        "confidence": 0.9,
+        "end": 100.17,
+        "word": "which",
+        "punct": "which",
+        "index": 227
+      },
+      {
+        "start": 100.2,
+        "confidence": 0.9,
+        "end": 100.56,
+        "word": "come",
+        "punct": "come",
+        "index": 228
+      },
+      {
+        "start": 100.62,
+        "confidence": 0.9,
+        "end": 100.98,
+        "word": "under",
+        "punct": "under",
+        "index": 229
+      },
+      {
+        "start": 100.98,
+        "confidence": 0.9,
+        "end": 101.13,
+        "word": "the",
+        "punct": "the",
+        "index": 230
+      },
+      {
+        "start": 101.13,
+        "confidence": 0.9,
+        "end": 101.52,
+        "word": "umbrella",
+        "punct": "umbrella",
+        "index": 231
+      },
+      {
+        "start": 101.52,
+        "confidence": 0.9,
+        "end": 101.61,
+        "word": "of",
+        "punct": "of",
+        "index": 232
+      },
+      {
+        "start": 101.61,
+        "confidence": 0.9,
+        "end": 101.97,
+        "word": "electric",
+        "punct": "electric",
+        "index": 233
+      },
+      {
+        "start": 101.97,
+        "confidence": 0.9,
+        "end": 102.48,
+        "word": "vehicles",
+        "punct": "vehicles",
+        "index": 234
+      },
+      {
+        "start": 102.54,
+        "confidence": 0.9,
+        "end": 102.69,
+        "word": "is",
+        "punct": "is",
+        "index": 235
+      },
+      {
+        "start": 102.69,
+        "confidence": 0.9,
+        "end": 102.72,
+        "word": "a",
+        "punct": "a",
+        "index": 236
+      },
+      {
+        "start": 102.72,
+        "confidence": 0.9,
+        "end": 103.02,
+        "word": "big",
+        "punct": "big",
+        "index": 237
+      },
+      {
+        "start": 103.02,
+        "confidence": 0.9,
+        "end": 103.32000000000001,
+        "word": "area",
+        "punct": "area",
+        "index": 238
+      },
+      {
+        "start": 103.44,
+        "confidence": 0.9,
+        "end": 103.59,
+        "word": "is",
+        "punct": "is",
+        "index": 239
+      },
+      {
+        "start": 103.59,
+        "confidence": 0.9,
+        "end": 103.62,
+        "word": "a",
+        "punct": "a",
+        "index": 240
+      },
+      {
+        "start": 103.62,
+        "confidence": 0.9,
+        "end": 103.8,
+        "word": "very",
+        "punct": "very",
+        "index": 241
+      },
+      {
+        "start": 103.8,
+        "confidence": 0.9,
+        "end": 103.98,
+        "word": "big",
+        "punct": "big",
+        "index": 242
+      },
+      {
+        "start": 103.98,
+        "confidence": 0.9,
+        "end": 104.4,
+        "word": "area",
+        "punct": "area",
+        "index": 243
+      },
+      {
+        "start": 105.09,
+        "confidence": 0.9,
+        "end": 105.48,
+        "word": "because",
+        "punct": "because",
+        "index": 244
+      },
+      {
+        "start": 105.48,
+        "confidence": 0.9,
+        "end": 105.66,
+        "word": "when",
+        "punct": "when",
+        "index": 245
+      },
+      {
+        "start": 105.66,
+        "confidence": 0.9,
+        "end": 105.81,
+        "word": "you",
+        "punct": "you",
+        "index": 246
+      },
+      {
+        "start": 105.81,
+        "confidence": 0.9,
+        "end": 106.11,
+        "word": "start",
+        "punct": "start",
+        "index": 247
+      },
+      {
+        "start": 106.11,
+        "confidence": 0.9,
+        "end": 106.98,
+        "word": "manufacturing",
+        "punct": "manufacturing",
+        "index": 248
+      },
+      {
+        "start": 108.08999999999999,
+        "confidence": 0.9,
+        "end": 108.44999999999999,
+        "word": "any",
+        "punct": "any",
+        "index": 249
+      },
+      {
+        "start": 108.44999999999999,
+        "confidence": 0.9,
+        "end": 108.78,
+        "word": "electric",
+        "punct": "electric",
+        "index": 250
+      },
+      {
+        "start": 108.78,
+        "confidence": 0.9,
+        "end": 109.17,
+        "word": "vehicle",
+        "punct": "vehicle",
+        "index": 251
+      },
+      {
+        "start": 109.17,
+        "confidence": 0.9,
+        "end": 109.28999999999999,
+        "word": "you",
+        "punct": "you",
+        "index": 252
+      },
+      {
+        "start": 109.28999999999999,
+        "confidence": 0.9,
+        "end": 109.44,
+        "word": "will",
+        "punct": "will",
+        "index": 253
+      },
+      {
+        "start": 109.44,
+        "confidence": 0.9,
+        "end": 109.92,
+        "word": "know",
+        "punct": "know",
+        "index": 254
+      },
+      {
+        "start": 110.16,
+        "confidence": 0.9,
+        "end": 110.61,
+        "word": "that",
+        "punct": "that",
+        "index": 255
+      },
+      {
+        "start": 111.0,
+        "confidence": 0.9,
+        "end": 111.50999999999999,
+        "word": "say",
+        "punct": "say",
+        "index": 256
+      },
+      {
+        "start": 111.81,
+        "confidence": 0.9,
+        "end": 112.02,
+        "word": "it",
+        "punct": "it",
+        "index": 257
+      },
+      {
+        "start": 112.02,
+        "confidence": 0.9,
+        "end": 112.47,
+        "word": "covers",
+        "punct": "covers",
+        "index": 258
+      },
+      {
+        "start": 112.47,
+        "confidence": 0.9,
+        "end": 112.56,
+        "word": "you",
+        "punct": "you",
+        "index": 259
+      },
+      {
+        "start": 112.56,
+        "confidence": 0.9,
+        "end": 112.71,
+        "word": "know",
+        "punct": "know",
+        "index": 260
+      },
+      {
+        "start": 112.74,
+        "confidence": 0.9,
+        "end": 113.03999999999999,
+        "word": "all",
+        "punct": "all",
+        "index": 261
+      },
+      {
+        "start": 113.03999999999999,
+        "confidence": 0.9,
+        "end": 113.42999999999999,
+        "word": "domains",
+        "punct": "domains",
+        "index": 262
+      },
+      {
+        "start": 113.42999999999999,
+        "confidence": 0.9,
+        "end": 113.55,
+        "word": "of",
+        "punct": "of",
+        "index": 263
+      },
+      {
+        "start": 113.55,
+        "confidence": 0.9,
+        "end": 114.03,
+        "word": "engineering",
+        "punct": "engineering",
+        "index": 264
+      },
+      {
+        "start": 114.53999999999999,
+        "confidence": 0.9,
+        "end": 114.72,
+        "word": "it",
+        "punct": "it",
+        "index": 265
+      },
+      {
+        "start": 114.72,
+        "confidence": 0.9,
+        "end": 115.08,
+        "word": "requires",
+        "punct": "requires",
+        "index": 266
+      },
+      {
+        "start": 115.08,
+        "confidence": 0.9,
+        "end": 115.44,
+        "word": "electrical",
+        "punct": "electrical",
+        "index": 267
+      },
+      {
+        "start": 115.44,
+        "confidence": 0.9,
+        "end": 116.03999999999999,
+        "word": "background",
+        "punct": "background",
+        "index": 268
+      },
+      {
+        "start": 116.39999999999999,
+        "confidence": 0.9,
+        "end": 116.88,
+        "word": "mechanical",
+        "punct": "mechanical",
+        "index": 269
+      },
+      {
+        "start": 116.88,
+        "confidence": 0.9,
+        "end": 117.47999999999999,
+        "word": "background",
+        "punct": "background",
+        "index": 270
+      },
+      {
+        "start": 117.86999999999999,
+        "confidence": 0.9,
+        "end": 118.32,
+        "word": "chemical",
+        "punct": "chemical",
+        "index": 271
+      },
+      {
+        "start": 118.32,
+        "confidence": 0.9,
+        "end": 118.91999999999999,
+        "word": "background",
+        "punct": "background",
+        "index": 272
+      },
+      {
+        "start": 119.75999999999999,
+        "confidence": 0.9,
+        "end": 119.91,
+        "word": "may",
+        "punct": "may",
+        "index": 273
+      },
+      {
+        "start": 119.91,
+        "confidence": 0.9,
+        "end": 120.03,
+        "word": "be",
+        "punct": "be",
+        "index": 274
+      },
+      {
+        "start": 120.03,
+        "confidence": 0.9,
+        "end": 120.42,
+        "word": "automobile",
+        "punct": "automobile",
+        "index": 275
+      },
+      {
+        "start": 120.41999999999999,
+        "confidence": 0.9,
+        "end": 120.83999999999999,
+        "word": "engineering",
+        "punct": "engineering",
+        "index": 276
+      },
+      {
+        "start": 120.84,
+        "confidence": 0.9,
+        "end": 121.38,
+        "word": "background",
+        "punct": "background",
+        "index": 277
+      },
+      {
+        "start": 123.12,
+        "confidence": 0.9,
+        "end": 123.39,
+        "word": "so",
+        "punct": "so",
+        "index": 278
+      },
+      {
+        "start": 123.39,
+        "confidence": 0.9,
+        "end": 123.66000000000001,
+        "word": "through",
+        "punct": "through",
+        "index": 279
+      },
+      {
+        "start": 123.66000000000001,
+        "confidence": 0.9,
+        "end": 123.87,
+        "word": "this",
+        "punct": "this",
+        "index": 280
+      },
+      {
+        "start": 123.87,
+        "confidence": 0.9,
+        "end": 124.26,
+        "word": "course",
+        "punct": "course",
+        "index": 281
+      },
+      {
+        "start": 124.26,
+        "confidence": 0.9,
+        "end": 124.38000000000001,
+        "word": "we",
+        "punct": "we",
+        "index": 282
+      },
+      {
+        "start": 124.38000000000001,
+        "confidence": 0.9,
+        "end": 124.5,
+        "word": "are",
+        "punct": "are",
+        "index": 283
+      },
+      {
+        "start": 124.5,
+        "confidence": 0.9,
+        "end": 124.83000000000001,
+        "word": "trying",
+        "punct": "trying",
+        "index": 284
+      },
+      {
+        "start": 124.86000000000001,
+        "confidence": 0.9,
+        "end": 125.4,
+        "word": "to",
+        "punct": "to",
+        "index": 285
+      },
+      {
+        "start": 126.30000000000001,
+        "confidence": 0.9,
+        "end": 126.60000000000001,
+        "word": "bridge",
+        "punct": "bridge",
+        "index": 286
+      },
+      {
+        "start": 126.60000000000001,
+        "confidence": 0.9,
+        "end": 126.84,
+        "word": "this",
+        "punct": "this",
+        "index": 287
+      },
+      {
+        "start": 126.84,
+        "confidence": 0.9,
+        "end": 127.32000000000001,
+        "word": "gap",
+        "punct": "gap",
+        "index": 288
+      },
+      {
+        "start": 127.59,
+        "confidence": 0.9,
+        "end": 127.77000000000001,
+        "word": "so",
+        "punct": "so",
+        "index": 289
+      },
+      {
+        "start": 127.77000000000001,
+        "confidence": 0.9,
+        "end": 127.89,
+        "word": "the",
+        "punct": "the",
+        "index": 290
+      },
+      {
+        "start": 127.89,
+        "confidence": 0.9,
+        "end": 128.31,
+        "word": "students",
+        "punct": "students",
+        "index": 291
+      },
+      {
+        "start": 128.31,
+        "confidence": 0.9,
+        "end": 128.73000000000002,
+        "word": "can",
+        "punct": "can",
+        "index": 292
+      },
+      {
+        "start": 128.82,
+        "confidence": 0.9,
+        "end": 128.97,
+        "word": "you",
+        "punct": "you",
+        "index": 293
+      },
+      {
+        "start": 128.97,
+        "confidence": 0.9,
+        "end": 129.36,
+        "word": "know",
+        "punct": "know",
+        "index": 294
+      },
+      {
+        "start": 130.38,
+        "confidence": 0.9,
+        "end": 130.59,
+        "word": "will",
+        "punct": "will",
+        "index": 295
+      },
+      {
+        "start": 130.59,
+        "confidence": 0.9,
+        "end": 130.89000000000001,
+        "word": "work",
+        "punct": "work",
+        "index": 296
+      },
+      {
+        "start": 130.89000000000001,
+        "confidence": 0.9,
+        "end": 131.01000000000002,
+        "word": "on",
+        "punct": "on",
+        "index": 297
+      },
+      {
+        "start": 131.01000000000002,
+        "confidence": 0.9,
+        "end": 131.07,
+        "word": "the",
+        "punct": "the",
+        "index": 298
+      },
+      {
+        "start": 131.07,
+        "confidence": 0.9,
+        "end": 131.64000000000001,
+        "word": "inertia",
+        "punct": "inertia",
+        "index": 299
+      },
+      {
+        "start": 131.64000000000001,
+        "confidence": 0.9,
+        "end": 131.94,
+        "word": "and",
+        "punct": "and",
+        "index": 300
+      },
+      {
+        "start": 132.36,
+        "confidence": 0.9,
+        "end": 133.05,
+        "word": "start",
+        "punct": "start",
+        "index": 301
+      },
+      {
+        "start": 134.67000000000002,
+        "confidence": 0.9,
+        "end": 135.3,
+        "word": "learning",
+        "punct": "learning",
+        "index": 302
+      },
+      {
+        "start": 135.78,
+        "confidence": 0.9,
+        "end": 136.05,
+        "word": "this",
+        "punct": "this",
+        "index": 303
+      },
+      {
+        "start": 136.05,
+        "confidence": 0.9,
+        "end": 136.47,
+        "word": "domain",
+        "punct": "domain",
+        "index": 304
+      },
+      {
+        "start": 137.1,
+        "confidence": 0.9,
+        "end": 137.28,
+        "word": "the",
+        "punct": "the",
+        "index": 305
+      },
+      {
+        "start": 137.28,
+        "confidence": 0.9,
+        "end": 137.52,
+        "word": "main",
+        "punct": "main",
+        "index": 306
+      },
+      {
+        "start": 137.52,
+        "confidence": 0.9,
+        "end": 137.88,
+        "word": "focus",
+        "punct": "focus",
+        "index": 307
+      },
+      {
+        "start": 137.88,
+        "confidence": 0.9,
+        "end": 138.48000000000002,
+        "word": "areas",
+        "punct": "areas",
+        "index": 308
+      },
+      {
+        "start": 139.01999999999998,
+        "confidence": 0.9,
+        "end": 139.23,
+        "word": "which",
+        "punct": "which",
+        "index": 309
+      },
+      {
+        "start": 139.23,
+        "confidence": 0.9,
+        "end": 139.47,
+        "word": "come",
+        "punct": "come",
+        "index": 310
+      },
+      {
+        "start": 139.47,
+        "confidence": 0.9,
+        "end": 139.89,
+        "word": "under",
+        "punct": "under",
+        "index": 311
+      },
+      {
+        "start": 139.95,
+        "confidence": 0.9,
+        "end": 140.60999999999999,
+        "word": "electrical",
+        "punct": "electrical",
+        "index": 312
+      },
+      {
+        "start": 140.60999999999999,
+        "confidence": 0.9,
+        "end": 140.94,
+        "word": "domain",
+        "punct": "domain",
+        "index": 313
+      },
+      {
+        "start": 140.94,
+        "confidence": 0.9,
+        "end": 141.23999999999998,
+        "word": "are",
+        "punct": "are",
+        "index": 314
+      },
+      {
+        "start": 141.66,
+        "confidence": 0.9,
+        "end": 142.01999999999998,
+        "word": "vehicle",
+        "punct": "vehicle",
+        "index": 315
+      },
+      {
+        "start": 142.01999999999998,
+        "confidence": 0.9,
+        "end": 142.67999999999998,
+        "word": "dynamics",
+        "punct": "dynamics",
+        "index": 316
+      },
+      {
+        "start": 144.26999999999998,
+        "confidence": 0.9,
+        "end": 144.72,
+        "word": "automotive",
+        "punct": "automotive",
+        "index": 317
+      },
+      {
+        "start": 144.72,
+        "confidence": 0.9,
+        "end": 145.38,
+        "word": "electronics",
+        "punct": "electronics",
+        "index": 318
+      },
+      {
+        "start": 145.38,
+        "confidence": 0.9,
+        "end": 145.56,
+        "word": "which",
+        "punct": "which",
+        "index": 319
+      },
+      {
+        "start": 145.56,
+        "confidence": 0.9,
+        "end": 145.64999999999998,
+        "word": "is",
+        "punct": "is",
+        "index": 320
+      },
+      {
+        "start": 145.65,
+        "confidence": 0.9,
+        "end": 146.13,
+        "word": "dominantly",
+        "punct": "dominantly",
+        "index": 321
+      },
+      {
+        "start": 146.13,
+        "confidence": 0.9,
+        "end": 146.34,
+        "word": "power",
+        "punct": "power",
+        "index": 322
+      },
+      {
+        "start": 146.34,
+        "confidence": 0.9,
+        "end": 147.06,
+        "word": "electronics",
+        "punct": "electronics",
+        "index": 323
+      },
+      {
+        "start": 148.44,
+        "confidence": 0.9,
+        "end": 148.79999999999998,
+        "word": "motor",
+        "punct": "motor",
+        "index": 324
+      },
+      {
+        "start": 148.79999999999998,
+        "confidence": 0.9,
+        "end": 149.48999999999998,
+        "word": "drives",
+        "punct": "drives",
+        "index": 325
+      },
+      {
+        "start": 149.51999999999998,
+        "confidence": 0.9,
+        "end": 149.85,
+        "word": "means",
+        "punct": "means",
+        "index": 326
+      },
+      {
+        "start": 149.85,
+        "confidence": 0.9,
+        "end": 149.97,
+        "word": "the",
+        "punct": "the",
+        "index": 327
+      },
+      {
+        "start": 149.97,
+        "confidence": 0.9,
+        "end": 150.32999999999998,
+        "word": "control",
+        "punct": "control",
+        "index": 328
+      },
+      {
+        "start": 150.32999999999998,
+        "confidence": 0.9,
+        "end": 150.54,
+        "word": "of",
+        "punct": "of",
+        "index": 329
+      },
+      {
+        "start": 150.78,
+        "confidence": 0.9,
+        "end": 151.14,
+        "word": "different",
+        "punct": "different",
+        "index": 330
+      },
+      {
+        "start": 151.14,
+        "confidence": 0.9,
+        "end": 151.32,
+        "word": "types",
+        "punct": "types",
+        "index": 331
+      },
+      {
+        "start": 151.32,
+        "confidence": 0.9,
+        "end": 151.44,
+        "word": "of",
+        "punct": "of",
+        "index": 332
+      },
+      {
+        "start": 151.44,
+        "confidence": 0.9,
+        "end": 151.76999999999998,
+        "word": "electrical",
+        "punct": "electrical",
+        "index": 333
+      },
+      {
+        "start": 151.76999999999998,
+        "confidence": 0.9,
+        "end": 152.4,
+        "word": "motors",
+        "punct": "motors",
+        "index": 334
+      },
+      {
+        "start": 154.26000000000002,
+        "confidence": 0.9,
+        "end": 154.95000000000002,
+        "word": "understanding",
+        "punct": "understanding",
+        "index": 335
+      },
+      {
+        "start": 154.95000000000002,
+        "confidence": 0.9,
+        "end": 155.10000000000002,
+        "word": "and",
+        "punct": "and",
+        "index": 336
+      },
+      {
+        "start": 155.10000000000002,
+        "confidence": 0.9,
+        "end": 155.82000000000002,
+        "word": "operating",
+        "punct": "operating",
+        "index": 337
+      },
+      {
+        "start": 155.91,
+        "confidence": 0.9,
+        "end": 156.48000000000002,
+        "word": "batteries",
+        "punct": "batteries",
+        "index": 338
+      },
+      {
+        "start": 156.48000000000002,
+        "confidence": 0.9,
+        "end": 156.57000000000002,
+        "word": "of",
+        "punct": "of",
+        "index": 339
+      },
+      {
+        "start": 156.57000000000002,
+        "confidence": 0.9,
+        "end": 156.93,
+        "word": "different",
+        "punct": "different",
+        "index": 340
+      },
+      {
+        "start": 156.93,
+        "confidence": 0.9,
+        "end": 157.44,
+        "word": "types",
+        "punct": "types",
+        "index": 341
+      },
+      {
+        "start": 159.93,
+        "confidence": 0.9,
+        "end": 160.53,
+        "word": "then",
+        "punct": "then",
+        "index": 342
+      },
+      {
+        "start": 161.37,
+        "confidence": 0.9,
+        "end": 161.55,
+        "word": "the",
+        "punct": "the",
+        "index": 343
+      },
+      {
+        "start": 161.55,
+        "confidence": 0.9,
+        "end": 161.94,
+        "word": "charging",
+        "punct": "charging",
+        "index": 344
+      },
+      {
+        "start": 161.94,
+        "confidence": 0.9,
+        "end": 162.60000000000002,
+        "word": "infrastructure",
+        "punct": "infrastructure",
+        "index": 345
+      },
+      {
+        "start": 162.63,
+        "confidence": 0.9,
+        "end": 162.87,
+        "word": "how",
+        "punct": "how",
+        "index": 346
+      },
+      {
+        "start": 162.87,
+        "confidence": 0.9,
+        "end": 163.02,
+        "word": "to",
+        "punct": "to",
+        "index": 347
+      },
+      {
+        "start": 163.02,
+        "confidence": 0.9,
+        "end": 163.5,
+        "word": "charges",
+        "punct": "charges",
+        "index": 348
+      },
+      {
+        "start": 163.5,
+        "confidence": 0.9,
+        "end": 163.68,
+        "word": "by",
+        "punct": "by",
+        "index": 349
+      },
+      {
+        "start": 163.68,
+        "confidence": 0.9,
+        "end": 164.10000000000002,
+        "word": "trees",
+        "punct": "trees",
+        "index": 350
+      },
+      {
+        "start": 164.13,
+        "confidence": 0.9,
+        "end": 164.34,
+        "word": "and",
+        "punct": "and",
+        "index": 351
+      },
+      {
+        "start": 164.34,
+        "confidence": 0.9,
+        "end": 164.58,
+        "word": "keep",
+        "punct": "keep",
+        "index": 352
+      },
+      {
+        "start": 164.58,
+        "confidence": 0.9,
+        "end": 164.76000000000002,
+        "word": "them",
+        "punct": "them",
+        "index": 353
+      },
+      {
+        "start": 164.76000000000002,
+        "confidence": 0.9,
+        "end": 164.85000000000002,
+        "word": "in",
+        "punct": "in",
+        "index": 354
+      },
+      {
+        "start": 164.85000000000002,
+        "confidence": 0.9,
+        "end": 165.03,
+        "word": "good",
+        "punct": "good",
+        "index": 355
+      },
+      {
+        "start": 165.03,
+        "confidence": 0.9,
+        "end": 165.60000000000002,
+        "word": "condition",
+        "punct": "condition",
+        "index": 356
+      },
+      {
+        "start": 166.62,
+        "confidence": 0.9,
+        "end": 166.83,
+        "word": "it",
+        "punct": "it",
+        "index": 357
+      },
+      {
+        "start": 166.83,
+        "confidence": 0.9,
+        "end": 167.13,
+        "word": "also",
+        "punct": "also",
+        "index": 358
+      },
+      {
+        "start": 167.13,
+        "confidence": 0.9,
+        "end": 167.82000000000002,
+        "word": "covers",
+        "punct": "covers",
+        "index": 359
+      },
+      {
+        "start": 168.87,
+        "confidence": 0.9,
+        "end": 169.05,
+        "word": "you",
+        "punct": "you",
+        "index": 360
+      },
+      {
+        "start": 169.05,
+        "confidence": 0.9,
+        "end": 169.23000000000002,
+        "word": "know",
+        "punct": "know",
+        "index": 361
+      },
+      {
+        "start": 169.23000000000002,
+        "confidence": 0.9,
+        "end": 169.41000000000003,
+        "word": "the",
+        "punct": "the",
+        "index": 362
+      },
+      {
+        "start": 169.41000000000003,
+        "confidence": 0.9,
+        "end": 169.77,
+        "word": "coming",
+        "punct": "coming",
+        "index": 363
+      },
+      {
+        "start": 169.77,
+        "confidence": 0.9,
+        "end": 170.61,
+        "word": "areas",
+        "punct": "areas",
+        "index": 364
+      },
+      {
+        "start": 170.85000000000002,
+        "confidence": 0.9,
+        "end": 171.21,
+        "word": "of",
+        "punct": "of",
+        "index": 365
+      },
+      {
+        "start": 171.45000000000002,
+        "confidence": 0.9,
+        "end": 171.96,
+        "word": "electric",
+        "punct": "electric",
+        "index": 366
+      },
+      {
+        "start": 171.96,
+        "confidence": 0.9,
+        "end": 172.65,
+        "word": "vehicles",
+        "punct": "vehicles",
+        "index": 367
+      },
+      {
+        "start": 173.22,
+        "confidence": 0.9,
+        "end": 173.55,
+        "word": "later",
+        "punct": "later",
+        "index": 368
+      },
+      {
+        "start": 173.55,
+        "confidence": 0.9,
+        "end": 173.67000000000002,
+        "word": "to",
+        "punct": "to",
+        "index": 369
+      },
+      {
+        "start": 173.67000000000002,
+        "confidence": 0.9,
+        "end": 174.0,
+        "word": "power",
+        "punct": "power",
+        "index": 370
+      },
+      {
+        "start": 174.0,
+        "confidence": 0.9,
+        "end": 174.45000000000002,
+        "word": "create",
+        "punct": "create",
+        "index": 371
+      },
+      {
+        "start": 174.99,
+        "confidence": 0.9,
+        "end": 175.38,
+        "word": "such",
+        "punct": "such",
+        "index": 372
+      },
+      {
+        "start": 175.38,
+        "confidence": 0.9,
+        "end": 175.56,
+        "word": "as",
+        "punct": "as",
+        "index": 373
+      },
+      {
+        "start": 175.59,
+        "confidence": 0.9,
+        "end": 175.77,
+        "word": "v",
+        "punct": "v",
+        "index": 374
+      },
+      {
+        "start": 175.77,
+        "confidence": 0.9,
+        "end": 175.98000000000002,
+        "word": "equal",
+        "punct": "equal",
+        "index": 375
+      },
+      {
+        "start": 175.98000000000002,
+        "confidence": 0.9,
+        "end": 176.1,
+        "word": "to",
+        "punct": "to",
+        "index": 376
+      },
+      {
+        "start": 176.1,
+        "confidence": 0.9,
+        "end": 176.52,
+        "word": "grid",
+        "punct": "grid",
+        "index": 377
+      },
+      {
+        "start": 176.70000000000002,
+        "confidence": 0.9,
+        "end": 177.0,
+        "word": "grid",
+        "punct": "grid",
+        "index": 378
+      },
+      {
+        "start": 177.0,
+        "confidence": 0.9,
+        "end": 177.12,
+        "word": "to",
+        "punct": "to",
+        "index": 379
+      },
+      {
+        "start": 177.12,
+        "confidence": 0.9,
+        "end": 177.66,
+        "word": "vehicle",
+        "punct": "vehicle",
+        "index": 380
+      },
+      {
+        "start": 178.41,
+        "confidence": 0.9,
+        "end": 179.04,
+        "word": "because",
+        "punct": "because",
+        "index": 381
+      },
+      {
+        "start": 179.28,
+        "confidence": 0.9,
+        "end": 179.46,
+        "word": "the",
+        "punct": "the",
+        "index": 382
+      },
+      {
+        "start": 179.46,
+        "confidence": 0.9,
+        "end": 179.88,
+        "word": "charging",
+        "punct": "charging",
+        "index": 383
+      },
+      {
+        "start": 179.88,
+        "confidence": 0.9,
+        "end": 180.03,
+        "word": "of",
+        "punct": "of",
+        "index": 384
+      },
+      {
+        "start": 180.03,
+        "confidence": 0.9,
+        "end": 180.33,
+        "word": "electric",
+        "punct": "electric",
+        "index": 385
+      },
+      {
+        "start": 180.33,
+        "confidence": 0.9,
+        "end": 181.02,
+        "word": "vehicles",
+        "punct": "vehicles",
+        "index": 386
+      },
+      {
+        "start": 181.23000000000002,
+        "confidence": 0.9,
+        "end": 181.74,
+        "word": "depends",
+        "punct": "depends",
+        "index": 387
+      },
+      {
+        "start": 181.74,
+        "confidence": 0.9,
+        "end": 182.13,
+        "word": "on",
+        "punct": "on",
+        "index": 388
+      },
+      {
+        "start": 182.82,
+        "confidence": 0.9,
+        "end": 183.0,
+        "word": "the",
+        "punct": "the",
+        "index": 389
+      },
+      {
+        "start": 183.0,
+        "confidence": 0.9,
+        "end": 183.45000000000002,
+        "word": "quality",
+        "punct": "quality",
+        "index": 390
+      },
+      {
+        "start": 183.45000000000002,
+        "confidence": 0.9,
+        "end": 183.57,
+        "word": "of",
+        "punct": "of",
+        "index": 391
+      },
+      {
+        "start": 183.57,
+        "confidence": 0.9,
+        "end": 183.87,
+        "word": "power",
+        "punct": "power",
+        "index": 392
+      },
+      {
+        "start": 183.87,
+        "confidence": 0.9,
+        "end": 184.29000000000002,
+        "word": "grid",
+        "punct": "grid",
+        "index": 393
+      },
+      {
+        "start": 185.19,
+        "confidence": 0.9,
+        "end": 185.46,
+        "word": "and",
+        "punct": "and",
+        "index": 394
+      },
+      {
+        "start": 185.46,
+        "confidence": 0.9,
+        "end": 185.58,
+        "word": "it",
+        "punct": "it",
+        "index": 395
+      },
+      {
+        "start": 185.58,
+        "confidence": 0.9,
+        "end": 185.70000000000002,
+        "word": "will",
+        "punct": "will",
+        "index": 396
+      },
+      {
+        "start": 185.70000000000002,
+        "confidence": 0.9,
+        "end": 186.0,
+        "word": "affect",
+        "punct": "affect",
+        "index": 397
+      },
+      {
+        "start": 186.0,
+        "confidence": 0.9,
+        "end": 186.09,
+        "word": "the",
+        "punct": "the",
+        "index": 398
+      },
+      {
+        "start": 186.09,
+        "confidence": 0.9,
+        "end": 186.33,
+        "word": "power",
+        "punct": "power",
+        "index": 399
+      },
+      {
+        "start": 186.33,
+        "confidence": 0.9,
+        "end": 186.6,
+        "word": "grid",
+        "punct": "grid",
+        "index": 400
+      },
+      {
+        "start": 186.6,
+        "confidence": 0.9,
+        "end": 186.87,
+        "word": "in",
+        "punct": "in",
+        "index": 401
+      },
+      {
+        "start": 187.65,
+        "confidence": 0.9,
+        "end": 188.16,
+        "word": "written",
+        "punct": "written",
+        "index": 402
+      },
+      {
+        "start": 189.0,
+        "confidence": 0.9,
+        "end": 189.36,
+        "word": "another",
+        "punct": "another",
+        "index": 403
+      },
+      {
+        "start": 189.36,
+        "confidence": 0.9,
+        "end": 190.14000000000001,
+        "word": "important",
+        "punct": "important",
+        "index": 404
+      },
+      {
+        "start": 190.23000000000002,
+        "confidence": 0.9,
+        "end": 190.65,
+        "word": "aspect",
+        "punct": "aspect",
+        "index": 405
+      },
+      {
+        "start": 190.65,
+        "confidence": 0.9,
+        "end": 190.74,
+        "word": "of",
+        "punct": "of",
+        "index": 406
+      },
+      {
+        "start": 190.74,
+        "confidence": 0.9,
+        "end": 190.89000000000001,
+        "word": "this",
+        "punct": "this",
+        "index": 407
+      },
+      {
+        "start": 190.89000000000001,
+        "confidence": 0.9,
+        "end": 191.22,
+        "word": "course",
+        "punct": "course",
+        "index": 408
+      },
+      {
+        "start": 191.22,
+        "confidence": 0.9,
+        "end": 191.37,
+        "word": "is",
+        "punct": "is",
+        "index": 409
+      },
+      {
+        "start": 191.37,
+        "confidence": 0.9,
+        "end": 191.82,
+        "word": "that",
+        "punct": "that",
+        "index": 410
+      },
+      {
+        "start": 192.03,
+        "confidence": 0.9,
+        "end": 192.27,
+        "word": "it",
+        "punct": "it",
+        "index": 411
+      },
+      {
+        "start": 192.27,
+        "confidence": 0.9,
+        "end": 192.36,
+        "word": "will",
+        "punct": "will",
+        "index": 412
+      },
+      {
+        "start": 192.36,
+        "confidence": 0.9,
+        "end": 192.48000000000002,
+        "word": "be",
+        "punct": "be",
+        "index": 413
+      },
+      {
+        "start": 192.48000000000002,
+        "confidence": 0.9,
+        "end": 192.75,
+        "word": "kind",
+        "punct": "kind",
+        "index": 414
+      },
+      {
+        "start": 192.75,
+        "confidence": 0.9,
+        "end": 192.93,
+        "word": "of",
+        "punct": "of",
+        "index": 415
+      },
+      {
+        "start": 192.93,
+        "confidence": 0.9,
+        "end": 192.99,
+        "word": "a",
+        "punct": "a",
+        "index": 416
+      },
+      {
+        "start": 192.99,
+        "confidence": 0.9,
+        "end": 193.44,
+        "word": "design",
+        "punct": "design",
+        "index": 417
+      },
+      {
+        "start": 193.44,
+        "confidence": 0.9,
+        "end": 194.13,
+        "word": "course",
+        "punct": "course",
+        "index": 418
+      },
+      {
+        "start": 194.46,
+        "confidence": 0.9,
+        "end": 194.88,
+        "word": "students",
+        "punct": "students",
+        "index": 419
+      },
+      {
+        "start": 194.88,
+        "confidence": 0.9,
+        "end": 195.06,
+        "word": "can",
+        "punct": "can",
+        "index": 420
+      },
+      {
+        "start": 195.06,
+        "confidence": 0.9,
+        "end": 195.78,
+        "word": "expect",
+        "punct": "expect",
+        "index": 421
+      },
+      {
+        "start": 196.71,
+        "confidence": 0.9,
+        "end": 197.07,
+        "word": "that",
+        "punct": "that",
+        "index": 422
+      },
+      {
+        "start": 197.1,
+        "confidence": 0.9,
+        "end": 197.34,
+        "word": "lot",
+        "punct": "lot",
+        "index": 423
+      },
+      {
+        "start": 197.34,
+        "confidence": 0.9,
+        "end": 197.43,
+        "word": "of",
+        "punct": "of",
+        "index": 424
+      },
+      {
+        "start": 197.43,
+        "confidence": 0.9,
+        "end": 198.3,
+        "word": "numericals",
+        "punct": "numericals",
+        "index": 425
+      },
+      {
+        "start": 199.11,
+        "confidence": 0.9,
+        "end": 199.29,
+        "word": "as",
+        "punct": "as",
+        "index": 426
+      },
+      {
+        "start": 199.29,
+        "confidence": 0.9,
+        "end": 199.47,
+        "word": "well",
+        "punct": "well",
+        "index": 427
+      },
+      {
+        "start": 199.47,
+        "confidence": 0.9,
+        "end": 199.86,
+        "word": "as",
+        "punct": "as",
+        "index": 428
+      },
+      {
+        "start": 199.89000000000001,
+        "confidence": 0.9,
+        "end": 200.04,
+        "word": "you",
+        "punct": "you",
+        "index": 429
+      },
+      {
+        "start": 200.04,
+        "confidence": 0.9,
+        "end": 200.31,
+        "word": "know",
+        "punct": "know",
+        "index": 430
+      },
+      {
+        "start": 200.34,
+        "confidence": 0.9,
+        "end": 201.24,
+        "word": "simulations",
+        "punct": "simulations",
+        "index": 431
+      },
+      {
+        "start": 201.84,
+        "confidence": 0.9,
+        "end": 201.96,
+        "word": "the",
+        "punct": "the",
+        "index": 432
+      },
+      {
+        "start": 201.96,
+        "confidence": 0.9,
+        "end": 202.68,
+        "word": "simulation",
+        "punct": "simulation",
+        "index": 433
+      },
+      {
+        "start": 202.8,
+        "confidence": 0.9,
+        "end": 203.04,
+        "word": "can",
+        "punct": "can",
+        "index": 434
+      },
+      {
+        "start": 203.04,
+        "confidence": 0.9,
+        "end": 203.16,
+        "word": "be",
+        "punct": "be",
+        "index": 435
+      },
+      {
+        "start": 203.16,
+        "confidence": 0.9,
+        "end": 203.61,
+        "word": "done",
+        "punct": "done",
+        "index": 436
+      },
+      {
+        "start": 203.88,
+        "confidence": 0.9,
+        "end": 204.12,
+        "word": "in",
+        "punct": "in",
+        "index": 437
+      },
+      {
+        "start": 204.12,
+        "confidence": 0.9,
+        "end": 204.39000000000001,
+        "word": "any",
+        "punct": "any",
+        "index": 438
+      },
+      {
+        "start": 204.39000000000001,
+        "confidence": 0.9,
+        "end": 205.02,
+        "word": "software",
+        "punct": "software",
+        "index": 439
+      },
+      {
+        "start": 205.59,
+        "confidence": 0.9,
+        "end": 205.86,
+        "word": "but",
+        "punct": "but",
+        "index": 440
+      },
+      {
+        "start": 206.13,
+        "confidence": 0.9,
+        "end": 206.43,
+        "word": "like",
+        "punct": "like",
+        "index": 441
+      },
+      {
+        "start": 206.43,
+        "confidence": 0.9,
+        "end": 207.06,
+        "word": "c",
+        "punct": "c",
+        "index": 442
+      },
+      {
+        "start": 207.21,
+        "confidence": 0.9,
+        "end": 207.54,
+        "word": "or",
+        "punct": "or",
+        "index": 443
+      },
+      {
+        "start": 207.6,
+        "confidence": 0.9,
+        "end": 207.99,
+        "word": "whichever",
+        "punct": "whichever",
+        "index": 444
+      },
+      {
+        "start": 207.99,
+        "confidence": 0.9,
+        "end": 208.38,
+        "word": "students",
+        "punct": "students",
+        "index": 445
+      },
+      {
+        "start": 208.38,
+        "confidence": 0.9,
+        "end": 208.5,
+        "word": "will",
+        "punct": "will",
+        "index": 446
+      },
+      {
+        "start": 208.5,
+        "confidence": 0.9,
+        "end": 208.65,
+        "word": "like",
+        "punct": "like",
+        "index": 447
+      },
+      {
+        "start": 208.65,
+        "confidence": 0.9,
+        "end": 208.77,
+        "word": "to",
+        "punct": "to",
+        "index": 448
+      },
+      {
+        "start": 208.77,
+        "confidence": 0.9,
+        "end": 209.25,
+        "word": "prefer",
+        "punct": "prefer",
+        "index": 449
+      },
+      {
+        "start": 209.88,
+        "confidence": 0.9,
+        "end": 210.09,
+        "word": "from",
+        "punct": "from",
+        "index": 450
+      },
+      {
+        "start": 210.09,
+        "confidence": 0.9,
+        "end": 210.15,
+        "word": "the",
+        "punct": "the",
+        "index": 451
+      },
+      {
+        "start": 210.15,
+        "confidence": 0.9,
+        "end": 210.45000000000002,
+        "word": "point",
+        "punct": "point",
+        "index": 452
+      },
+      {
+        "start": 210.45,
+        "confidence": 0.9,
+        "end": 210.54,
+        "word": "of",
+        "punct": "of",
+        "index": 453
+      },
+      {
+        "start": 210.54,
+        "confidence": 0.9,
+        "end": 210.9,
+        "word": "this",
+        "punct": "this",
+        "index": 454
+      },
+      {
+        "start": 210.99,
+        "confidence": 0.9,
+        "end": 211.56,
+        "word": "course",
+        "punct": "course",
+        "index": 455
+      },
+      {
+        "start": 211.8,
+        "confidence": 0.9,
+        "end": 211.98000000000002,
+        "word": "we",
+        "punct": "we",
+        "index": 456
+      },
+      {
+        "start": 211.98000000000002,
+        "confidence": 0.9,
+        "end": 212.37,
+        "word": "will",
+        "punct": "will",
+        "index": 457
+      },
+      {
+        "start": 213.24,
+        "confidence": 0.9,
+        "end": 213.96,
+        "word": "demonstrate",
+        "punct": "demonstrate",
+        "index": 458
+      },
+      {
+        "start": 213.96,
+        "confidence": 0.9,
+        "end": 214.35,
+        "word": "those",
+        "punct": "those",
+        "index": 459
+      },
+      {
+        "start": 214.41,
+        "confidence": 0.9,
+        "end": 214.77,
+        "word": "design",
+        "punct": "design",
+        "index": 460
+      },
+      {
+        "start": 214.77,
+        "confidence": 0.9,
+        "end": 215.37,
+        "word": "examples",
+        "punct": "examples",
+        "index": 461
+      },
+      {
+        "start": 215.37,
+        "confidence": 0.9,
+        "end": 215.64000000000001,
+        "word": "using",
+        "punct": "using",
+        "index": 462
+      },
+      {
+        "start": 215.64000000000001,
+        "confidence": 0.9,
+        "end": 216.57,
+        "word": "matlabsimulink",
+        "punct": "matlabsimulink",
+        "index": 463
+      },
+      {
+        "start": 217.14000000000001,
+        "confidence": 0.9,
+        "end": 217.32,
+        "word": "at",
+        "punct": "at",
+        "index": 464
+      },
+      {
+        "start": 217.32,
+        "confidence": 0.9,
+        "end": 217.41,
+        "word": "the",
+        "punct": "the",
+        "index": 465
+      },
+      {
+        "start": 217.41,
+        "confidence": 0.9,
+        "end": 217.59,
+        "word": "end",
+        "punct": "end",
+        "index": 466
+      },
+      {
+        "start": 217.59,
+        "confidence": 0.9,
+        "end": 217.68,
+        "word": "of",
+        "punct": "of",
+        "index": 467
+      },
+      {
+        "start": 217.68,
+        "confidence": 0.9,
+        "end": 217.86,
+        "word": "this",
+        "punct": "this",
+        "index": 468
+      },
+      {
+        "start": 217.86,
+        "confidence": 0.9,
+        "end": 218.37,
+        "word": "course",
+        "punct": "course",
+        "index": 469
+      },
+      {
+        "start": 218.49,
+        "confidence": 0.9,
+        "end": 218.67000000000002,
+        "word": "the",
+        "punct": "the",
+        "index": 470
+      },
+      {
+        "start": 218.67000000000002,
+        "confidence": 0.9,
+        "end": 219.24,
+        "word": "design",
+        "punct": "design",
+        "index": 471
+      },
+      {
+        "start": 219.24,
+        "confidence": 0.9,
+        "end": 219.87,
+        "word": "and",
+        "punct": "and",
+        "index": 472
+      },
+      {
+        "start": 220.08,
+        "confidence": 0.9,
+        "end": 220.59,
+        "word": "simulation",
+        "punct": "simulation",
+        "index": 473
+      },
+      {
+        "start": 220.59,
+        "confidence": 0.9,
+        "end": 221.28,
+        "word": "exercises",
+        "punct": "exercises",
+        "index": 474
+      },
+      {
+        "start": 221.31,
+        "confidence": 0.9,
+        "end": 221.52,
+        "word": "will",
+        "punct": "will",
+        "index": 475
+      },
+      {
+        "start": 221.52,
+        "confidence": 0.9,
+        "end": 221.91,
+        "word": "enable",
+        "punct": "enable",
+        "index": 476
+      },
+      {
+        "start": 221.91,
+        "confidence": 0.9,
+        "end": 222.60000000000002,
+        "word": "students",
+        "punct": "students",
+        "index": 477
+      },
+      {
+        "start": 223.29000000000002,
+        "confidence": 0.9,
+        "end": 223.47,
+        "word": "to",
+        "punct": "to",
+        "index": 478
+      },
+      {
+        "start": 223.47,
+        "confidence": 0.9,
+        "end": 223.89000000000001,
+        "word": "connect",
+        "punct": "connect",
+        "index": 479
+      },
+      {
+        "start": 223.89000000000001,
+        "confidence": 0.9,
+        "end": 224.04000000000002,
+        "word": "to",
+        "punct": "to",
+        "index": 480
+      },
+      {
+        "start": 224.04000000000002,
+        "confidence": 0.9,
+        "end": 224.28,
+        "word": "real",
+        "punct": "real",
+        "index": 481
+      },
+      {
+        "start": 224.28,
+        "confidence": 0.9,
+        "end": 224.46,
+        "word": "time",
+        "punct": "time",
+        "index": 482
+      },
+      {
+        "start": 224.46,
+        "confidence": 0.9,
+        "end": 225.33,
+        "word": "applications",
+        "punct": "applications",
+        "index": 483
+      },
+      {
+        "start": 225.93,
+        "confidence": 0.9,
+        "end": 226.14000000000001,
+        "word": "they",
+        "punct": "they",
+        "index": 484
+      },
+      {
+        "start": 226.14000000000001,
+        "confidence": 0.9,
+        "end": 226.38,
+        "word": "can",
+        "punct": "can",
+        "index": 485
+      },
+      {
+        "start": 226.41,
+        "confidence": 0.9,
+        "end": 226.65,
+        "word": "take",
+        "punct": "take",
+        "index": 486
+      },
+      {
+        "start": 226.65,
+        "confidence": 0.9,
+        "end": 226.8,
+        "word": "the",
+        "punct": "the",
+        "index": 487
+      },
+      {
+        "start": 226.8,
+        "confidence": 0.9,
+        "end": 227.13,
+        "word": "data",
+        "punct": "data",
+        "index": 488
+      },
+      {
+        "start": 227.13,
+        "confidence": 0.9,
+        "end": 227.4,
+        "word": "of",
+        "punct": "of",
+        "index": 489
+      },
+      {
+        "start": 229.44,
+        "confidence": 0.9,
+        "end": 229.65,
+        "word": "the",
+        "punct": "the",
+        "index": 490
+      },
+      {
+        "start": 229.65,
+        "confidence": 0.9,
+        "end": 230.07000000000002,
+        "word": "present",
+        "punct": "present",
+        "index": 491
+      },
+      {
+        "start": 230.16,
+        "confidence": 0.9,
+        "end": 230.85000000000002,
+        "word": "tvs",
+        "punct": "tvs",
+        "index": 492
+      },
+      {
+        "start": 230.88,
+        "confidence": 0.9,
+        "end": 231.15,
+        "word": "like",
+        "punct": "like",
+        "index": 493
+      },
+      {
+        "start": 231.15,
+        "confidence": 0.9,
+        "end": 231.33,
+        "word": "two",
+        "punct": "two",
+        "index": 494
+      },
+      {
+        "start": 231.33,
+        "confidence": 0.9,
+        "end": 231.72,
+        "word": "wheelers",
+        "punct": "wheelers",
+        "index": 495
+      },
+      {
+        "start": 231.72,
+        "confidence": 0.9,
+        "end": 231.99,
+        "word": "three",
+        "punct": "three",
+        "index": 496
+      },
+      {
+        "start": 231.99,
+        "confidence": 0.9,
+        "end": 232.38,
+        "word": "wheelers",
+        "punct": "wheelers",
+        "index": 497
+      },
+      {
+        "start": 232.41,
+        "confidence": 0.9,
+        "end": 232.65,
+        "word": "four",
+        "punct": "four",
+        "index": 498
+      },
+      {
+        "start": 232.65,
+        "confidence": 0.9,
+        "end": 233.25,
+        "word": "wheelers",
+        "punct": "wheelers",
+        "index": 499
+      },
+      {
+        "start": 233.88,
+        "confidence": 0.9,
+        "end": 234.09,
+        "word": "and",
+        "punct": "and",
+        "index": 500
+      },
+      {
+        "start": 234.09,
+        "confidence": 0.9,
+        "end": 234.33,
+        "word": "so",
+        "punct": "so",
+        "index": 501
+      },
+      {
+        "start": 234.33,
+        "confidence": 0.9,
+        "end": 234.66,
+        "word": "on",
+        "punct": "on",
+        "index": 502
+      },
+      {
+        "start": 235.44,
+        "confidence": 0.9,
+        "end": 236.07,
+        "word": "and",
+        "punct": "and",
+        "index": 503
+      },
+      {
+        "start": 236.4,
+        "confidence": 0.9,
+        "end": 236.70000000000002,
+        "word": "check",
+        "punct": "check",
+        "index": 504
+      },
+      {
+        "start": 236.70000000000002,
+        "confidence": 0.9,
+        "end": 236.88,
+        "word": "their",
+        "punct": "their",
+        "index": 505
+      },
+      {
+        "start": 236.88,
+        "confidence": 0.9,
+        "end": 237.75,
+        "word": "performances",
+        "punct": "performances",
+        "index": 506
+      },
+      {
+        "start": 237.78,
+        "confidence": 0.9,
+        "end": 238.17000000000002,
+        "word": "in",
+        "punct": "in",
+        "index": 507
+      },
+      {
+        "start": 238.56,
+        "confidence": 0.9,
+        "end": 238.8,
+        "word": "mat",
+        "punct": "mat",
+        "index": 508
+      },
+      {
+        "start": 238.8,
+        "confidence": 0.9,
+        "end": 238.98000000000002,
+        "word": "lab",
+        "punct": "lab",
+        "index": 509
+      },
+      {
+        "start": 238.98000000000002,
+        "confidence": 0.9,
+        "end": 239.79000000000002,
+        "word": "exercises",
+        "punct": "exercises",
+        "index": 510
+      },
+      {
+        "start": 240.24,
+        "confidence": 0.9,
+        "end": 240.48000000000002,
+        "word": "so",
+        "punct": "so",
+        "index": 511
+      },
+      {
+        "start": 240.48000000000002,
+        "confidence": 0.9,
+        "end": 240.6,
+        "word": "is",
+        "punct": "is",
+        "index": 512
+      },
+      {
+        "start": 240.6,
+        "confidence": 0.9,
+        "end": 240.66,
+        "word": "a",
+        "punct": "a",
+        "index": 513
+      },
+      {
+        "start": 240.66,
+        "confidence": 0.9,
+        "end": 240.93,
+        "word": "kind",
+        "punct": "kind",
+        "index": 514
+      },
+      {
+        "start": 240.93,
+        "confidence": 0.9,
+        "end": 241.26000000000002,
+        "word": "of",
+        "punct": "of",
+        "index": 515
+      },
+      {
+        "start": 242.16,
+        "confidence": 0.9,
+        "end": 242.31,
+        "word": "you",
+        "punct": "you",
+        "index": 516
+      },
+      {
+        "start": 242.31,
+        "confidence": 0.9,
+        "end": 242.73000000000002,
+        "word": "know",
+        "punct": "know",
+        "index": 517
+      },
+      {
+        "start": 243.57,
+        "confidence": 0.9,
+        "end": 244.08,
+        "word": "adhering",
+        "punct": "adhering",
+        "index": 518
+      },
+      {
+        "start": 244.08,
+        "confidence": 0.9,
+        "end": 244.41,
+        "word": "to",
+        "punct": "to",
+        "index": 519
+      },
+      {
+        "start": 244.44,
+        "confidence": 0.9,
+        "end": 244.74,
+        "word": "real",
+        "punct": "real",
+        "index": 520
+      },
+      {
+        "start": 244.74,
+        "confidence": 0.9,
+        "end": 244.92000000000002,
+        "word": "time",
+        "punct": "time",
+        "index": 521
+      },
+      {
+        "start": 244.92000000000002,
+        "confidence": 0.9,
+        "end": 245.70000000000002,
+        "word": "applications",
+        "punct": "applications",
+        "index": 522
+      },
+      {
+        "start": 246.12,
+        "confidence": 0.9,
+        "end": 246.24,
+        "word": "so",
+        "punct": "so",
+        "index": 523
+      },
+      {
+        "start": 246.24,
+        "confidence": 0.9,
+        "end": 246.57,
+        "word": "thank",
+        "punct": "thank",
+        "index": 524
+      },
+      {
+        "start": 246.57,
+        "confidence": 0.9,
+        "end": 246.63,
+        "word": "you",
+        "punct": "you",
+        "index": 525
+      },
+      {
+        "start": 246.63,
+        "confidence": 0.9,
+        "end": 247.02,
+        "word": "everyone",
+        "punct": "everyone",
+        "index": 526
+      },
+      {
+        "start": 247.02,
+        "confidence": 0.9,
+        "end": 247.20000000000002,
+        "word": "for",
+        "punct": "for",
+        "index": 527
+      },
+      {
+        "start": 247.20000000000002,
+        "confidence": 0.9,
+        "end": 247.56,
+        "word": "listening",
+        "punct": "listening",
+        "index": 528
+      },
+      {
+        "start": 247.56,
+        "confidence": 0.9,
+        "end": 247.65,
+        "word": "to",
+        "punct": "to",
+        "index": 529
+      },
+      {
+        "start": 247.65,
+        "confidence": 0.9,
+        "end": 247.86,
+        "word": "this",
+        "punct": "this",
+        "index": 530
+      },
+      {
+        "start": 247.86,
+        "confidence": 0.9,
+        "end": 248.37,
+        "word": "introduction",
+        "punct": "introduction",
+        "index": 531
+      },
+      {
+        "start": 248.37,
+        "confidence": 0.9,
+        "end": 248.82,
+        "word": "video",
+        "punct": "video",
+        "index": 532
+      },
+      {
+        "start": 249.81,
+        "confidence": 0.9,
+        "end": 249.9,
+        "word": "and",
+        "punct": "and",
+        "index": 533
+      },
+      {
+        "start": 249.9,
+        "confidence": 0.9,
+        "end": 249.99,
+        "word": "i",
+        "punct": "i",
+        "index": 534
+      },
+      {
+        "start": 249.99,
+        "confidence": 0.9,
+        "end": 250.41,
+        "word": "welcome",
+        "punct": "welcome",
+        "index": 535
+      },
+      {
+        "start": 250.41,
+        "confidence": 0.9,
+        "end": 250.83,
+        "word": "students",
+        "punct": "students",
+        "index": 536
+      },
+      {
+        "start": 250.83,
+        "confidence": 0.9,
+        "end": 250.95000000000002,
+        "word": "to",
+        "punct": "to",
+        "index": 537
+      },
+      {
+        "start": 250.95000000000002,
+        "confidence": 0.9,
+        "end": 251.22,
+        "word": "join",
+        "punct": "join",
+        "index": 538
+      },
+      {
+        "start": 251.22,
+        "confidence": 0.9,
+        "end": 251.4,
+        "word": "this",
+        "punct": "this",
+        "index": 539
+      },
+      {
+        "start": 251.4,
+        "confidence": 0.9,
+        "end": 251.91,
+        "word": "course",
+        "punct": "course",
+        "index": 540
+      }
+    ],
+    "segmentation": {
+      "metadata": {
+        "version": "0.0.10"
+      },
+      "@type": "AudioFile",
+      "speakers": [
+        {
+          "@id": "S0",
+          "gender": "F"
+        },
+        {
+          "@id": "S1",
+          "gender": "F"
+        }
+      ],
+      "segments": [
+        {
+          "@type": "Segment",
+          "start": 0.0,
+          "duration": 15.66,
+          "bandwidth": "S",
+          "speaker": {
+            "@id": "S0",
+            "gender": "id"
+          }
+        },
+        {
+          "@type": "Segment",
+          "start": 15.66,
+          "duration": 15.84,
+          "bandwidth": "S",
+          "speaker": {
+            "@id": "S1",
+            "gender": "id"
+          }
+        },
+        {
+          "@type": "Segment",
+          "start": 31.5,
+          "duration": 17.61,
+          "bandwidth": "S",
+          "speaker": {
+            "@id": "S2",
+            "gender": "id"
+          }
+        },
+        {
+          "@type": "Segment",
+          "start": 49.11,
+          "duration": 20.849999999999994,
+          "bandwidth": "S",
+          "speaker": {
+            "@id": "S3",
+            "gender": "id"
+          }
+        },
+        {
+          "@type": "Segment",
+          "start": 69.96,
+          "duration": 20.070000000000007,
+          "bandwidth": "S",
+          "speaker": {
+            "@id": "S4",
+            "gender": "id"
+          }
+        },
+        {
+          "@type": "Segment",
+          "start": 90.03,
+          "duration": 17.849999999999994,
+          "bandwidth": "S",
+          "speaker": {
+            "@id": "S5",
+            "gender": "id"
+          }
+        },
+        {
+          "@type": "Segment",
+          "start": 107.88,
+          "duration": 14.550000000000011,
+          "bandwidth": "S",
+          "speaker": {
+            "@id": "S6",
+            "gender": "id"
+          }
+        },
+        {
+          "@type": "Segment",
+          "start": 122.43,
+          "duration": 16.109999999999985,
+          "bandwidth": "S",
+          "speaker": {
+            "@id": "S7",
+            "gender": "id"
+          }
+        },
+        {
+          "@type": "Segment",
+          "start": 138.54,
+          "duration": 14.700000000000017,
+          "bandwidth": "S",
+          "speaker": {
+            "@id": "S8",
+            "gender": "id"
+          }
+        },
+        {
+          "@type": "Segment",
+          "start": 153.24,
+          "duration": 19.409999999999997,
+          "bandwidth": "S",
+          "speaker": {
+            "@id": "S9",
+            "gender": "id"
+          }
+        },
+        {
+          "@type": "Segment",
+          "start": 172.65,
+          "duration": 15.719999999999999,
+          "bandwidth": "S",
+          "speaker": {
+            "@id": "S10",
+            "gender": "id"
+          }
+        },
+        {
+          "@type": "Segment",
+          "start": 188.37,
+          "duration": 13.469999999999999,
+          "bandwidth": "S",
+          "speaker": {
+            "@id": "S11",
+            "gender": "id"
+          }
+        },
+        {
+          "@type": "Segment",
+          "start": 201.84,
+          "duration": 16.650000000000006,
+          "bandwidth": "S",
+          "speaker": {
+            "@id": "S12",
+            "gender": "id"
+          }
+        },
+        {
+          "@type": "Segment",
+          "start": 218.49,
+          "duration": 16.439999999999998,
+          "bandwidth": "S",
+          "speaker": {
+            "@id": "S13",
+            "gender": "id"
+          }
+        },
+        {
+          "start": 234.93,
+          "duration": 17.340000000000003,
+          "@type": "Segment",
+          "bandwidth": "S",
+          "speaker": {
+            "@id": "S14",
+            "gender": "id"
+          }
+        }
+      ]
+    }
+  },
+  "elapsed": 0.091,
+  "servertime": "20181102111317.9727"
+}

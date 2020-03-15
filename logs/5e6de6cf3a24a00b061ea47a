@@ -1,0 +1,5 @@
+/home/ubuntu/anup_backend/uploads/1584260815870intro.wav, 1, 1, 5e6de6cf3a24a00b061ea47a, 5e6de6cf3a24a00b061ea47a
+jobstatus 10%
+/mnt/md0/kaldi/egs/nptel/s5_r2/steps/get_ctm.sh --frame-shift 0.03 /mnt/md0/kaldi/egs/nptel/s5_r2/data/5e6de6cf3a24a00b061ea47a_hires /mnt/md0/kaldi/egs/nptel/s5_r2/data2/lang /mnt/md0/kaldi/egs/nptel/s5_r2/exp/chain_cleaned/tdnnf_1b/decode_5e6de6cf3a24a00b061ea47a_rnnlm_lstm_tdnn_b_averaged
+jobstatus 90%
+/mnt/md0/SpeechRecognitionServer/JSON/5e6de6cf3a24a00b061ea47a-1.json
