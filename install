@@ -1,0 +1,16 @@
+sudo apt-get install mysql-server
+#open /etc/mysql/my.cnf
+# add line: 
+#  [mysqld]
+#  skip-grant-tables
+########################
+# util/jobdb.py create table
+sudo systemctl start mysql
+sudo systemctl enable mysql
+sudo apt install python3-pip
+sudo apt-get install -y ffmpeg
+sudo apt-get install -y sox
+pip3 install  mysql-connector-python
+pip3 install webrtcvad
+pip3 install tornado==5.0.1
+pip3 install sox

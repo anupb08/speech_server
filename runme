@@ -1,0 +1,77 @@
+#!/bin/bash
+
+#rm -rf /home/user/kaldi/egs/nptel/s5/data/test_nptel/*
+#rm -rf $base_dir/SplitWavFile/nptel/*
+echo $1, $2, $3, $4, $5
+base_dir=/home/ubuntu
+kaldi_nptel=$base_dir/kaldi/egs/nptel/s5_r2
+split_wav_dir=$base_dir/SplitWavFile/$4 
+mfcc_dir=$kaldi_nptel/data/$4
+mkdir $split_wav_dir
+mkdir $mfcc_dir
+python3 $base_dir/SplitWavFile/example.py $split_wav_dir $1 
+python3 $base_dir/SpeechRecognitionServer/create_wav_filelist.py $split_wav_dir $mfcc_dir
+jobid=$5
+SQL_QUERY="update jobrequest set jobstatus=10 where jobid='$jobid'"
+mysql -u root -pmysql -D jobdb -e "$SQL_QUERY";
+echo "jobstatus 10%"
+
+cd $kaldi_nptel
+if [ $2 -eq 1 ]; then
+. $base_dir/SpeechRecognitionServer/tdnn_chain_rnnlm.sh $4 $jobid 1 >/dev/null  2>&1
+$kaldi_nptel/steps/get_ctm.sh --frame-shift 0.03 ${mfcc_dir}_hires $kaldi_nptel/data2/lang $kaldi_nptel/exp/chain_cleaned/tdnnf_1b/decode_$4_rnnlm_lstm_tdnn_b_averaged
+json_file="$base_dir/SpeechRecognitionServer/JSON/$4-1.json"
+python3 $base_dir/SpeechRecognitionServer/process_word_timestamp.py $4 $json_file $kaldi_nptel/exp/chain_cleaned/tdnnf_1b/decode_$4_rnnlm_lstm_tdnn_b_averaged/score_13/$4_hires.ctm
+
+fi
+
+if [ $2 -eq 2 ]; then
+. $base_dir/SpeechRecognitionServer/transcription_dnn_bn2.sh $4 $jobid 1 >/dev/null  2>&1
+$kaldi_nptel/steps/get_ctm.sh $mfcc_dir $kaldi_nptel/data2/lang_rescore/ $kaldi_nptel/exp/dnn8f_BN_pretrain-dbn_dnn_smbr/decode_$4_it4_rescore/
+json_file="$base_dir/SpeechRecognitionServer/JSON/$4-2.json"
+python3 $base_dir/SpeechRecognitionServer/process_word_timestamp.py $4 $json_file $kaldi_nptel/exp/dnn8f_BN_pretrain-dbn_dnn_smbr/decode_$4_it4_rescore/score_16/$4.ctm
+rm -r $kaldi_nptel/data-fbank/$4
+rm -r $kaldi_nptel/data-fbank-BN-bn/$4
+rm -r $kaldi_nptel/data-fbank-BN-bn-fmllr/$4
+rm -r $kaldi_nptel/exp/dnn8c_BN_fmllr-gmm_XLM/decode_$4
+rm -r $kaldi_nptel/exp/dnn8c_BN_fmllr-gmm_XLM/decode_$4.si/
+rm -r $kaldi_nptel/exp/dnn8f_BN_pretrain-dbn_dnn_smbr/decode_$4_it4
+rm -r $kaldi_nptel/exp/dnn8f_BN_pretrain-dbn_dnn_smbr/decode_$4_it4_rescore
+rm -rf $kaldi_nptel/transcription_$4
+python3 $base_dir/SpeechRecognitionServer/parse_hyptext.py $3 /tmp/$4-1.txt
+rm /tmp/$4-1.txt
+fi
+
+if [ $2 -eq 3 ]; then
+. $base_dir/SpeechRecognitionServer/tdnn_chain_rnnlm.sh $4 $jobid 2 >/dev/null  2>&1
+$kaldi_nptel/steps/get_ctm.sh --frame-shift 0.03 ${mfcc_dir}_hires $kaldi_nptel/data2/lang $kaldi_nptel/exp/chain_cleaned/tdnnf_1b/decode_$4_rnnlm_lstm_tdnn_b_averaged
+json_file="$base_dir/SpeechRecognitionServer/JSON/$4-1.json"
+python3 $base_dir/SpeechRecognitionServer/process_word_timestamp.py $4 $json_file $kaldi_nptel/exp/chain_cleaned/tdnnf_1b/decode_$4_rnnlm_lstm_tdnn_b_averaged/score_13/$4_hires.ctm
+
+
+. $base_dir/SpeechRecognitionServer/transcription_dnn_bn2.sh $4 $jobid 2 >/dev/null  2>&1
+$kaldi_nptel/steps/get_ctm.sh $mfcc_dir $kaldi_nptel/data2/lang_rescore/ $kaldi_nptel/exp/dnn8f_BN_pretrain-dbn_dnn_smbr/decode_$4_it4_rescore/
+json_file2="$base_dir/SpeechRecognitionServer/JSON/$4-2.json"
+python3 $base_dir/SpeechRecognitionServer/process_word_timestamp.py $4 $json_file2 $kaldi_nptel/exp/dnn8f_BN_pretrain-dbn_dnn_smbr/decode_$4_it4_rescore/score_16/$4.ctm
+rm -r $kaldi_nptel/data-fbank/$4
+rm -r $kaldi_nptel/data-fbank-BN-bn/$4
+rm -r $kaldi_nptel/data-fbank-BN-bn-fmllr/$4
+rm -r $kaldi_nptel/exp/dnn8c_BN_fmllr-gmm_XLM/decode_$4
+rm -r $kaldi_nptel/exp/dnn8c_BN_fmllr-gmm_XLM/decode_$4.si/
+#rm -r $kaldi_nptel/exp/dnn8f_BN_pretrain-dbn_dnn_smbr/decode_$4_it4
+#rm -r $kaldi_nptel/exp/dnn8f_BN_pretrain-dbn_dnn_smbr/decode_$4_it4_rescore
+rm -rf $kaldi_nptel/transcription_$4
+json_file=$json_file,$json_file2
+fi
+
+SQL_QUERY="update jobrequest set jobstatus=90 where jobid='$jobid'"
+mysql -u root -pmysql -D jobdb -e "$SQL_QUERY";
+echo "jobstatus 90%"
+
+echo $json_file
+SQL_QUERY="update jobrequest set jobstatus=100, transcriptfile='$json_file', modeltype='$2' where jobid='$jobid'"
+mysql -u root -pmysql -D jobdb -e "$SQL_QUERY";
+
+rm -rf $split_wav_dir
+#rm -rf $mfcc_dir
+

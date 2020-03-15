@@ -1,0 +1,1 @@
+/mnt/md0/SpeechRecognitionServer/tdnn_chain_rnnlm.sh
